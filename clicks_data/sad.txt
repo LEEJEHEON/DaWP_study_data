@@ -1,0 +1,40 @@
+x : train데이터 x값
+y_onehot : 원핫 한 y 값
+y_list_one : 원한 한 y값 array
+
+y : 원핫 안한 y 값
+y_list : 원핫 안한 y값 array
+
+-----------------------
+x_train, x_test : x값 split
+y_train, y_test : 원핫x y값
+
+x_train_scaled : x_train scaler
+x_test_scaled : x_test scaler
+
+-------------------------
+x_train_one, x_test_one : x값 split
+y_train_one, y_test_one : 원핫 y값
+
+
+
+------------feedback-----------
+
+x : train데이터 x값
+y_onehot : 원핫 한 y 값
+y_list_one : 원한 한 y값 array
+
+y : 원핫 안한 y 값
+y_list : 원핫 안한 y값 array
+
+-----------total-------------------
+train_df = train x data
+y_list = 원핫 안한 y 값 array
+
+test_df = test x data
+
+test_proba = predict_proba array 값
+
+final = 최종 dataframe
+
+
