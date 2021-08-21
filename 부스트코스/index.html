@@ -1,0 +1,4775 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_edd157e6b50046dfb2f0119c4cb760a7 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_edd157e6b50046dfb2f0119c4cb760a7" ></div>
+        
+</body>
+<script>    
+    
+            var map_edd157e6b50046dfb2f0119c4cb760a7 = L.map(
+                "map_edd157e6b50046dfb2f0119c4cb760a7",
+                {
+                    center: [37.531378659261094, 126.99861635482705],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a48306cbe5004f89905e4880b89a5e5b = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+            var marker_4029a9d7731545edb6f27fe7c994c906 = L.marker(
+                [37.5590478066919, 127.088279358833],
+                {}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_2ad795fe7a6b4a0a926fb0e069902e93 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bee7fc1232c54206979278128cb50e54 = $(`<div id="html_bee7fc1232c54206979278128cb50e54" style="width: 100.0%; height: 100.0%;">대진의료재단-서울특별시 광진구 긴고랑로 119</div>`)[0];
+            popup_2ad795fe7a6b4a0a926fb0e069902e93.setContent(html_bee7fc1232c54206979278128cb50e54);
+        
+
+        marker_4029a9d7731545edb6f27fe7c994c906.bindPopup(popup_2ad795fe7a6b4a0a926fb0e069902e93)
+        ;
+
+        
+    
+    
+            var marker_2841e35d8bb2443494b61916c8a0f0c7 = L.marker(
+                [37.529213286364396, 126.86280512854499],
+                {}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_d33e173d467245999551193fdb3bc4b7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0b8741f4df294124b503c79b41a096e7 = $(`<div id="html_0b8741f4df294124b503c79b41a096e7" style="width: 100.0%; height: 100.0%;">홍익병원별관-서울특별시 양천구 국회대로 250</div>`)[0];
+            popup_d33e173d467245999551193fdb3bc4b7.setContent(html_0b8741f4df294124b503c79b41a096e7);
+        
+
+        marker_2841e35d8bb2443494b61916c8a0f0c7.bindPopup(popup_d33e173d467245999551193fdb3bc4b7)
+        ;
+
+        
+    
+    
+            var marker_bc35dada781e41728d59e480c2af6846 = L.marker(
+                [37.4996302661116, 127.035824788941],
+                {}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_1bcabd176b1a476c90ad97839f6d7b96 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0c1591a0da494a3ab00aa6d1063d61a9 = $(`<div id="html_0c1591a0da494a3ab00aa6d1063d61a9" style="width: 100.0%; height: 100.0%;">SNUH-서울특별시 강남구 테헤란로26길 10</div>`)[0];
+            popup_1bcabd176b1a476c90ad97839f6d7b96.setContent(html_0c1591a0da494a3ab00aa6d1063d61a9);
+        
+
+        marker_bc35dada781e41728d59e480c2af6846.bindPopup(popup_1bcabd176b1a476c90ad97839f6d7b96)
+        ;
+
+        
+    
+    
+            var marker_d36019dbd8e340fca7d2cfe81c6a42c4 = L.marker(
+                [37.5594688006573, 127.041324711886],
+                {}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_8057468374e2465194d53ee92511b3cc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_91c4e7b46c9d4c2aaaeed498bd4bcf72 = $(`<div id="html_91c4e7b46c9d4c2aaaeed498bd4bcf72" style="width: 100.0%; height: 100.0%;">한양-서울특별시 성동구 마조로 22-2</div>`)[0];
+            popup_8057468374e2465194d53ee92511b3cc.setContent(html_91c4e7b46c9d4c2aaaeed498bd4bcf72);
+        
+
+        marker_d36019dbd8e340fca7d2cfe81c6a42c4.bindPopup(popup_8057468374e2465194d53ee92511b3cc)
+        ;
+
+        
+    
+    
+            var marker_47e512bedc06423ba6ef80f8972f6d05 = L.marker(
+                [37.542270809833205, 127.125283411621],
+                {}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_8a7ae211873b41369ee685d1597dac43 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_053f251036da4cedb53fc7db68f2fd61 = $(`<div id="html_053f251036da4cedb53fc7db68f2fd61" style="width: 100.0%; height: 100.0%;">백산의료재단친구병원-서울특별시 강동구 올림픽로 684</div>`)[0];
+            popup_8a7ae211873b41369ee685d1597dac43.setContent(html_053f251036da4cedb53fc7db68f2fd61);
+        
+
+        marker_47e512bedc06423ba6ef80f8972f6d05.bindPopup(popup_8a7ae211873b41369ee685d1597dac43)
+        ;
+
+        
+    
+    
+            var marker_57d183d5759a4352885df522cce83599 = L.marker(
+                [37.528460878258706, 127.147914226576],
+                {}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_4d887f970ebf4f588e59e43771d17b48 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0468b01ba25f461fa5a122de2effcf38 = $(`<div id="html_0468b01ba25f461fa5a122de2effcf38" style="width: 100.0%; height: 100.0%;">서울보훈병원-서울특별시 강동구 진황도로61길 53</div>`)[0];
+            popup_4d887f970ebf4f588e59e43771d17b48.setContent(html_0468b01ba25f461fa5a122de2effcf38);
+        
+
+        marker_57d183d5759a4352885df522cce83599.bindPopup(popup_4d887f970ebf4f588e59e43771d17b48)
+        ;
+
+        
+    
+    
+            var marker_c3bf2bb055a44438ac8dd2870ef33d9a = L.marker(
+                [37.5000141135255, 127.03648711873699],
+                {}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_b8120cb35e2c4a7f8eeca8c9ea319d29 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_12428eae7b8d4e1bb163849b9ef06347 = $(`<div id="html_12428eae7b8d4e1bb163849b9ef06347" style="width: 100.0%; height: 100.0%;">서울대학교병원-서울특별시 강남구 테헤란로 152</div>`)[0];
+            popup_b8120cb35e2c4a7f8eeca8c9ea319d29.setContent(html_12428eae7b8d4e1bb163849b9ef06347);
+        
+
+        marker_c3bf2bb055a44438ac8dd2870ef33d9a.bindPopup(popup_b8120cb35e2c4a7f8eeca8c9ea319d29)
+        ;
+
+        
+    
+    
+            var marker_80d25b8c3c584485849f21a1d4c7f752 = L.marker(
+                [37.561708789577104, 126.999619848188],
+                {}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_3252026acffa43e29100f94ef8e081c4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_70274e4852e54300a3c6a0ca824a0f39 = $(`<div id="html_70274e4852e54300a3c6a0ca824a0f39" style="width: 100.0%; height: 100.0%;">제일병원-서울특별시 중구 서애로1길 17</div>`)[0];
+            popup_3252026acffa43e29100f94ef8e081c4.setContent(html_70274e4852e54300a3c6a0ca824a0f39);
+        
+
+        marker_80d25b8c3c584485849f21a1d4c7f752.bindPopup(popup_3252026acffa43e29100f94ef8e081c4)
+        ;
+
+        
+    
+    
+            var marker_00b66811b8594f4298d1479506b8bd68 = L.marker(
+                [37.481907504751504, 126.881567999979],
+                {}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_72ed90e76c62460cb9f50bb24b6ff938 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dd300968400942168647a19d0097edfd = $(`<div id="html_dd300968400942168647a19d0097edfd" style="width: 100.0%; height: 100.0%;">이랜드클리닉-서울특별시 금천구 가산디지털1로 186</div>`)[0];
+            popup_72ed90e76c62460cb9f50bb24b6ff938.setContent(html_dd300968400942168647a19d0097edfd);
+        
+
+        marker_00b66811b8594f4298d1479506b8bd68.bindPopup(popup_72ed90e76c62460cb9f50bb24b6ff938)
+        ;
+
+        
+    
+    
+            var marker_2453c52fd70f4f1b88ac05174e4393a3 = L.marker(
+                [37.5598884579046, 126.964069882556],
+                {}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_5b298486f6de47b4b2b98cdeb35b7c84 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cd1dc732704249f9bf1dff1ddc32c153 = $(`<div id="html_cd1dc732704249f9bf1dff1ddc32c153" style="width: 100.0%; height: 100.0%;">사랑나눔의료재단-서울특별시 서대문구 서소문로 21</div>`)[0];
+            popup_5b298486f6de47b4b2b98cdeb35b7c84.setContent(html_cd1dc732704249f9bf1dff1ddc32c153);
+        
+
+        marker_2453c52fd70f4f1b88ac05174e4393a3.bindPopup(popup_5b298486f6de47b4b2b98cdeb35b7c84)
+        ;
+
+        
+    
+    
+            var marker_80d8e33691fe46eb834fa751278a5aa7 = L.marker(
+                [37.5884849860916, 127.031701809695],
+                {}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_9226d7aa43234882ab8e2deb1f604a85 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3d1d20b94fcb4940a4f42a7fbeaf3d79 = $(`<div id="html_3d1d20b94fcb4940a4f42a7fbeaf3d79" style="width: 100.0%; height: 100.0%;">우울증센터-서울특별시 성북구 안암로 145</div>`)[0];
+            popup_9226d7aa43234882ab8e2deb1f604a85.setContent(html_3d1d20b94fcb4940a4f42a7fbeaf3d79);
+        
+
+        marker_80d8e33691fe46eb834fa751278a5aa7.bindPopup(popup_9226d7aa43234882ab8e2deb1f604a85)
+        ;
+
+        
+    
+    
+            var marker_12e8fdeb8e2f4c5780da5c3dff376b39 = L.marker(
+                [37.5234259336424, 126.91030567607599],
+                {}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_a597d09cf0124c6f8777e001200ee9d3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3865d66283164025a8278523cefe114c = $(`<div id="html_3865d66283164025a8278523cefe114c" style="width: 100.0%; height: 100.0%;">성심의료재단-서울특별시 영등포구 버드나루로 55</div>`)[0];
+            popup_a597d09cf0124c6f8777e001200ee9d3.setContent(html_3865d66283164025a8278523cefe114c);
+        
+
+        marker_12e8fdeb8e2f4c5780da5c3dff376b39.bindPopup(popup_a597d09cf0124c6f8777e001200ee9d3)
+        ;
+
+        
+    
+    
+            var marker_0ec5194936874d33814acb9f7c0d276d = L.marker(
+                [37.4967193539591, 126.85695376699499],
+                {}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_2097095427f34f59b4098a462c91abea = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1297e2370c134257a2924596721e6d4c = $(`<div id="html_1297e2370c134257a2924596721e6d4c" style="width: 100.0%; height: 100.0%;">다나의료재단-서울특별시 구로구 개봉로 126</div>`)[0];
+            popup_2097095427f34f59b4098a462c91abea.setContent(html_1297e2370c134257a2924596721e6d4c);
+        
+
+        marker_0ec5194936874d33814acb9f7c0d276d.bindPopup(popup_2097095427f34f59b4098a462c91abea)
+        ;
+
+        
+    
+    
+            var marker_89507c72ea224bf78a225bf47e9c7240 = L.marker(
+                [37.5252476485773, 127.109315275715],
+                {}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_d621bef5b0f44d2eab8042daf2226823 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6edbe9c1ffdd49a3970753301dad54ca = $(`<div id="html_6edbe9c1ffdd49a3970753301dad54ca" style="width: 100.0%; height: 100.0%;">서울아산병원신관-서울특별시 송파구 올림픽로43길 88</div>`)[0];
+            popup_d621bef5b0f44d2eab8042daf2226823.setContent(html_6edbe9c1ffdd49a3970753301dad54ca);
+        
+
+        marker_89507c72ea224bf78a225bf47e9c7240.bindPopup(popup_d621bef5b0f44d2eab8042daf2226823)
+        ;
+
+        
+    
+    
+            var marker_40c1e226b9854341a2e8b69b5d83eb70 = L.marker(
+                [37.6288082757637, 127.082669636243],
+                {}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_34ce5377846346ebad89ff6b30f11986 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_21c67717496e49e5b55f74a5db2f1418 = $(`<div id="html_21c67717496e49e5b55f74a5db2f1418" style="width: 100.0%; height: 100.0%;">원자력병원장례식장-서울특별시 노원구 노원로 75</div>`)[0];
+            popup_34ce5377846346ebad89ff6b30f11986.setContent(html_21c67717496e49e5b55f74a5db2f1418);
+        
+
+        marker_40c1e226b9854341a2e8b69b5d83eb70.bindPopup(popup_34ce5377846346ebad89ff6b30f11986)
+        ;
+
+        
+    
+    
+            var marker_8d8cb39523bf45d3a8c3ac96af20005e = L.marker(
+                [37.491208532547496, 126.8846634435],
+                {}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_fbcdd3ca916e4adaa85582b666410a15 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_835c3946d7944658a0ce04a5570b9dc1 = $(`<div id="html_835c3946d7944658a0ce04a5570b9dc1" style="width: 100.0%; height: 100.0%;">고려대학교구로병원-서울특별시 구로구 구로동로 148</div>`)[0];
+            popup_fbcdd3ca916e4adaa85582b666410a15.setContent(html_835c3946d7944658a0ce04a5570b9dc1);
+        
+
+        marker_8d8cb39523bf45d3a8c3ac96af20005e.bindPopup(popup_fbcdd3ca916e4adaa85582b666410a15)
+        ;
+
+        
+    
+    
+            var marker_3e359990afda4e6894b43b762ffab884 = L.marker(
+                [37.5234259336424, 126.91030567607599],
+                {}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_f0c7941d05094558bf931d76cb3f7ae8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d045ac37602a4726b56959e3cf03140d = $(`<div id="html_d045ac37602a4726b56959e3cf03140d" style="width: 100.0%; height: 100.0%;">학교법인일송학원-서울특별시 영등포구 버드나루로 55</div>`)[0];
+            popup_f0c7941d05094558bf931d76cb3f7ae8.setContent(html_d045ac37602a4726b56959e3cf03140d);
+        
+
+        marker_3e359990afda4e6894b43b762ffab884.bindPopup(popup_f0c7941d05094558bf931d76cb3f7ae8)
+        ;
+
+        
+    
+    
+            var marker_1fbf3842b6784a9ea0607c9e588ce4dc = L.marker(
+                [37.490334340869495, 127.08957883163201],
+                {}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_242b84e111da4a2692c2deb6a53e4cab = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cbab9237f0e64a1580d63720be7fd03e = $(`<div id="html_cbab9237f0e64a1580d63720be7fd03e" style="width: 100.0%; height: 100.0%;">삼성의료원장례식장-서울특별시 강남구 일원로 81</div>`)[0];
+            popup_242b84e111da4a2692c2deb6a53e4cab.setContent(html_cbab9237f0e64a1580d63720be7fd03e);
+        
+
+        marker_1fbf3842b6784a9ea0607c9e588ce4dc.bindPopup(popup_242b84e111da4a2692c2deb6a53e4cab)
+        ;
+
+        
+    
+    
+            var marker_9b344532a5ea445eb1e00f8a6499862f = L.marker(
+                [37.4544208148109, 126.90123704027701],
+                {}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_2bf51d107af34acfa9f1d6e28e51f876 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9afeda9de2e54d7b89961b1f5ece734e = $(`<div id="html_9afeda9de2e54d7b89961b1f5ece734e" style="width: 100.0%; height: 100.0%;">희명스포츠의학센터인공신장실-서울특별시 금천구 시흥대로 230</div>`)[0];
+            popup_2bf51d107af34acfa9f1d6e28e51f876.setContent(html_9afeda9de2e54d7b89961b1f5ece734e);
+        
+
+        marker_9b344532a5ea445eb1e00f8a6499862f.bindPopup(popup_2bf51d107af34acfa9f1d6e28e51f876)
+        ;
+
+        
+    
+    
+            var marker_30cccfaba49746be97d03412e2762d86 = L.marker(
+                [37.4927951351961, 127.046293864724],
+                {}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_802d442b856846ecbff8e56b69b35745 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5d6f393835bc437094e25d7bf8c9d7c4 = $(`<div id="html_5d6f393835bc437094e25d7bf8c9d7c4" style="width: 100.0%; height: 100.0%;">연세대학교의과대학강남세브란스-서울특별시 강남구 언주로 211</div>`)[0];
+            popup_802d442b856846ecbff8e56b69b35745.setContent(html_5d6f393835bc437094e25d7bf8c9d7c4);
+        
+
+        marker_30cccfaba49746be97d03412e2762d86.bindPopup(popup_802d442b856846ecbff8e56b69b35745)
+        ;
+
+        
+    
+    
+            var marker_b5fd050d6a5a4c919dd1e770e4596270 = L.marker(
+                [37.5653138819736, 127.086437154639],
+                {}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_f0444e87311b4c9d8ace122752106e21 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_523fcdf7981e441db7c1c39948bc3f2a = $(`<div id="html_523fcdf7981e441db7c1c39948bc3f2a" style="width: 100.0%; height: 100.0%;">국립정신병원-서울특별시 광진구 능동로 398</div>`)[0];
+            popup_f0444e87311b4c9d8ace122752106e21.setContent(html_523fcdf7981e441db7c1c39948bc3f2a);
+        
+
+        marker_b5fd050d6a5a4c919dd1e770e4596270.bindPopup(popup_f0444e87311b4c9d8ace122752106e21)
+        ;
+
+        
+    
+    
+            var marker_a9a06d02f8b4474d862a575169616ff6 = L.marker(
+                [37.5041585815151, 127.05203064685499],
+                {}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_8ece4235e0834ac287dbd92be728ba88 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_017d77dfaaf94824ad6c1e16f5285735 = $(`<div id="html_017d77dfaaf94824ad6c1e16f5285735" style="width: 100.0%; height: 100.0%;">코아클리닉-서울특별시 강남구 선릉로86길 31</div>`)[0];
+            popup_8ece4235e0834ac287dbd92be728ba88.setContent(html_017d77dfaaf94824ad6c1e16f5285735);
+        
+
+        marker_a9a06d02f8b4474d862a575169616ff6.bindPopup(popup_8ece4235e0834ac287dbd92be728ba88)
+        ;
+
+        
+    
+    
+            var marker_3f685e564d0a4f37b7877f765a78aee2 = L.marker(
+                [37.6466791728505, 127.02904307821301],
+                {}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_c40c61d84fc84ef68c6de892038f5162 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1826e663d9e648cf9b242da57646c33a = $(`<div id="html_1826e663d9e648cf9b242da57646c33a" style="width: 100.0%; height: 100.0%;">한국전력공사부속한일병원-서울특별시 도봉구 우이천로 308</div>`)[0];
+            popup_c40c61d84fc84ef68c6de892038f5162.setContent(html_1826e663d9e648cf9b242da57646c33a);
+        
+
+        marker_3f685e564d0a4f37b7877f765a78aee2.bindPopup(popup_c40c61d84fc84ef68c6de892038f5162)
+        ;
+
+        
+    
+    
+            var marker_bf6ab1a01905444e9cf804615bd3109d = L.marker(
+                [37.552351350337, 126.934217029717],
+                {}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_07f44e93c25c43188dcc82970ec96081 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d1d8a98657e8443c9e075642ef23dd64 = $(`<div id="html_d1d8a98657e8443c9e075642ef23dd64" style="width: 100.0%; height: 100.0%;">신촌연세병원-서울특별시 마포구 서강로14길 14</div>`)[0];
+            popup_07f44e93c25c43188dcc82970ec96081.setContent(html_d1d8a98657e8443c9e075642ef23dd64);
+        
+
+        marker_bf6ab1a01905444e9cf804615bd3109d.bindPopup(popup_07f44e93c25c43188dcc82970ec96081)
+        ;
+
+        
+    
+    
+            var marker_03191d030a6a4d3db613fb3d37a37f46 = L.marker(
+                [37.4927951351961, 127.046293864724],
+                {}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_2e05f521fbd9428f8ae9e465d9653347 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_80237bd3fad04d7fb451aefdb2493fe4 = $(`<div id="html_80237bd3fad04d7fb451aefdb2493fe4" style="width: 100.0%; height: 100.0%;">영동세브란스병원-서울특별시 강남구 언주로 211</div>`)[0];
+            popup_2e05f521fbd9428f8ae9e465d9653347.setContent(html_80237bd3fad04d7fb451aefdb2493fe4);
+        
+
+        marker_03191d030a6a4d3db613fb3d37a37f46.bindPopup(popup_2e05f521fbd9428f8ae9e465d9653347)
+        ;
+
+        
+    
+    
+            var marker_6387901f06f1420ca94222210e582cf0 = L.marker(
+                [37.5623763649704, 126.975546803857],
+                {}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_d6b5e0283d334641b2dd5f6f24deae5d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7e1554aa7399416197a1c407067a62cf = $(`<div id="html_7e1554aa7399416197a1c407067a62cf" style="width: 100.0%; height: 100.0%;">삼성의료재단강북삼성태-서울특별시 중구 세종대로 67</div>`)[0];
+            popup_d6b5e0283d334641b2dd5f6f24deae5d.setContent(html_7e1554aa7399416197a1c407067a62cf);
+        
+
+        marker_6387901f06f1420ca94222210e582cf0.bindPopup(popup_d6b5e0283d334641b2dd5f6f24deae5d)
+        ;
+
+        
+    
+    
+            var marker_2fd0862c49234316962175581b526d3c = L.marker(
+                [37.492999919576505, 126.92431799318399],
+                {}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_8d7ff96fcfd046d7aa8c5656bc203aef = L.popup({"maxWidth": "100%"});
+
+        
+            var html_86f05e33ad6b4b3e9f31ce42ea45bc0e = $(`<div id="html_86f05e33ad6b4b3e9f31ce42ea45bc0e" style="width: 100.0%; height: 100.0%;">서울시립보라매병원-서울특별시 동작구 보라매로5길 20</div>`)[0];
+            popup_8d7ff96fcfd046d7aa8c5656bc203aef.setContent(html_86f05e33ad6b4b3e9f31ce42ea45bc0e);
+        
+
+        marker_2fd0862c49234316962175581b526d3c.bindPopup(popup_8d7ff96fcfd046d7aa8c5656bc203aef)
+        ;
+
+        
+    
+    
+            var marker_f33dc04174d24fb28190511f94c308af = L.marker(
+                [37.58044782245471, 126.997184076959],
+                {}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_fbc417f40c024df28036336984a0cceb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3ff9dabdaaeb44ef87c111b052701fc4 = $(`<div id="html_3ff9dabdaaeb44ef87c111b052701fc4" style="width: 100.0%; height: 100.0%;">서울대학교병원비상계획외래-서울특별시 종로구 대학로 101</div>`)[0];
+            popup_fbc417f40c024df28036336984a0cceb.setContent(html_3ff9dabdaaeb44ef87c111b052701fc4);
+        
+
+        marker_f33dc04174d24fb28190511f94c308af.bindPopup(popup_fbc417f40c024df28036336984a0cceb)
+        ;
+
+        
+    
+    
+            var marker_3471ac963c2f408ba5a1dce67354c181 = L.marker(
+                [37.5023822369311, 127.00584071155399],
+                {}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_98a65e1ee954454b9250520a89eeca17 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ba3375103e8648b1b5a220c33665f566 = $(`<div id="html_ba3375103e8648b1b5a220c33665f566" style="width: 100.0%; height: 100.0%;">평화드림서울성모병원의료-서울특별시 서초구 반포대로 222</div>`)[0];
+            popup_98a65e1ee954454b9250520a89eeca17.setContent(html_ba3375103e8648b1b5a220c33665f566);
+        
+
+        marker_3471ac963c2f408ba5a1dce67354c181.bindPopup(popup_98a65e1ee954454b9250520a89eeca17)
+        ;
+
+        
+    
+    
+            var marker_315af9cacc01401ebb2a381bbf1fff40 = L.marker(
+                [37.5287978094127, 126.863637341439],
+                {}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_24230bebce5e487796aa7b96293671b8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4791399cf912435eb53bf493caebd0d0 = $(`<div id="html_4791399cf912435eb53bf493caebd0d0" style="width: 100.0%; height: 100.0%;">홍익병원-서울특별시 양천구 목동로 227</div>`)[0];
+            popup_24230bebce5e487796aa7b96293671b8.setContent(html_4791399cf912435eb53bf493caebd0d0);
+        
+
+        marker_315af9cacc01401ebb2a381bbf1fff40.bindPopup(popup_24230bebce5e487796aa7b96293671b8)
+        ;
+
+        
+    
+    
+            var marker_19c93e624b9644cf85fa074286b8d5a0 = L.marker(
+                [37.5598884579046, 126.964069882556],
+                {}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_ef59c41542e7436381bcf6ed773c7d38 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a16d530cdd8e4070bb6813cffda23201 = $(`<div id="html_a16d530cdd8e4070bb6813cffda23201" style="width: 100.0%; height: 100.0%;">사랑나눔의료재단서-서울특별시 서대문구 서소문로 21</div>`)[0];
+            popup_ef59c41542e7436381bcf6ed773c7d38.setContent(html_a16d530cdd8e4070bb6813cffda23201);
+        
+
+        marker_19c93e624b9644cf85fa074286b8d5a0.bindPopup(popup_ef59c41542e7436381bcf6ed773c7d38)
+        ;
+
+        
+    
+    
+            var marker_b4ad479571914ff19bb44ff321750cb3 = L.marker(
+                [37.584867824713704, 127.031216512377],
+                {}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_5631e41be3bb47919fa26fad450ecbe8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c3106ae948d841248973d3bf95d49e65 = $(`<div id="html_c3106ae948d841248973d3bf95d49e65" style="width: 100.0%; height: 100.0%;">우신향병원-서울특별시 성북구 안암로 99</div>`)[0];
+            popup_5631e41be3bb47919fa26fad450ecbe8.setContent(html_c3106ae948d841248973d3bf95d49e65);
+        
+
+        marker_b4ad479571914ff19bb44ff321750cb3.bindPopup(popup_5631e41be3bb47919fa26fad450ecbe8)
+        ;
+
+        
+    
+    
+            var marker_c96b459eda544d85a3ddfe808dda429e = L.marker(
+                [37.6008223690353, 127.108596273171],
+                {}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_61271ee2ffdd4452b5195749fc28e727 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9848ad54de5f4e7f9e4f6d9eab177aa8 = $(`<div id="html_9848ad54de5f4e7f9e4f6d9eab177aa8" style="width: 100.0%; height: 100.0%;">동부제일병원-서울특별시 중랑구 양원역로 2</div>`)[0];
+            popup_61271ee2ffdd4452b5195749fc28e727.setContent(html_9848ad54de5f4e7f9e4f6d9eab177aa8);
+        
+
+        marker_c96b459eda544d85a3ddfe808dda429e.bindPopup(popup_61271ee2ffdd4452b5195749fc28e727)
+        ;
+
+        
+    
+    
+            var marker_ee57401665f0489f8346294d5ed246f1 = L.marker(
+                [37.51767433730021, 126.982708013371],
+                {}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_c17149ff41ed40b49b714d89dccca6a9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_38cf6a24802e4e108a99e05277025eeb = $(`<div id="html_38cf6a24802e4e108a99e05277025eeb" style="width: 100.0%; height: 100.0%;">아산재단금강병원-서울특별시 용산구 이촌로 318</div>`)[0];
+            popup_c17149ff41ed40b49b714d89dccca6a9.setContent(html_38cf6a24802e4e108a99e05277025eeb);
+        
+
+        marker_ee57401665f0489f8346294d5ed246f1.bindPopup(popup_c17149ff41ed40b49b714d89dccca6a9)
+        ;
+
+        
+    
+    
+            var marker_5b76cb2a9553412da5419e83ce29e167 = L.marker(
+                [37.519668760289505, 126.901570561173],
+                {}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_5034633a91f44a809ac926615ca068f9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7797ffe98f404e999bc7ce2950a35289 = $(`<div id="html_7797ffe98f404e999bc7ce2950a35289" style="width: 100.0%; height: 100.0%;">명곡안연구소-서울특별시 영등포구 영신로 136</div>`)[0];
+            popup_5034633a91f44a809ac926615ca068f9.setContent(html_7797ffe98f404e999bc7ce2950a35289);
+        
+
+        marker_5b76cb2a9553412da5419e83ce29e167.bindPopup(popup_5034633a91f44a809ac926615ca068f9)
+        ;
+
+        
+    
+    
+            var marker_992ab08481fa4df49f99ca3108da5dfa = L.marker(
+                [37.5252476485773, 127.109315275715],
+                {}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_c258b58d06124341896035d5a67d319d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d4bcee1f41364251b466714120efbeb4 = $(`<div id="html_d4bcee1f41364251b466714120efbeb4" style="width: 100.0%; height: 100.0%;">아산재단서울중앙병원-서울특별시 송파구 올림픽로43길 88</div>`)[0];
+            popup_c258b58d06124341896035d5a67d319d.setContent(html_d4bcee1f41364251b466714120efbeb4);
+        
+
+        marker_992ab08481fa4df49f99ca3108da5dfa.bindPopup(popup_c258b58d06124341896035d5a67d319d)
+        ;
+
+        
+    
+    
+            var marker_f19bccf7ef554af183a6109bb0ad036b = L.marker(
+                [37.5372508450536, 126.827821479527],
+                {}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_7e4631ba42034e558f9e70d95111757c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5c7bf30d0e634b2e9206520d1e45fc40 = $(`<div id="html_5c7bf30d0e634b2e9206520d1e45fc40" style="width: 100.0%; height: 100.0%;">메디힐특수여객-서울특별시 양천구 남부순환로 331</div>`)[0];
+            popup_7e4631ba42034e558f9e70d95111757c.setContent(html_5c7bf30d0e634b2e9206520d1e45fc40);
+        
+
+        marker_f19bccf7ef554af183a6109bb0ad036b.bindPopup(popup_7e4631ba42034e558f9e70d95111757c)
+        ;
+
+        
+    
+    
+            var marker_4cef2251fa2944f9a682c142c484a8db = L.marker(
+                [37.490334340869495, 127.08957883163201],
+                {}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_cc62073c50fa4156a0ee72f07bceeb9f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ec1dcb232744422596c4d160b38009d3 = $(`<div id="html_ec1dcb232744422596c4d160b38009d3" style="width: 100.0%; height: 100.0%;">삼성생명공익재단삼성서-서울특별시 강남구 일원로 81</div>`)[0];
+            popup_cc62073c50fa4156a0ee72f07bceeb9f.setContent(html_ec1dcb232744422596c4d160b38009d3);
+        
+
+        marker_4cef2251fa2944f9a682c142c484a8db.bindPopup(popup_cc62073c50fa4156a0ee72f07bceeb9f)
+        ;
+
+        
+    
+    
+            var marker_c6bcd9fd1e9940059d806b4ac9abf042 = L.marker(
+                [37.5068404935954, 127.034940318209],
+                {}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_3ee6cb04111a49178b9d98fcdc989f1b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_639533a26db04caeb027c019ce64c495 = $(`<div id="html_639533a26db04caeb027c019ce64c495" style="width: 100.0%; height: 100.0%;">성광의료재단차병원-서울특별시 강남구 논현로 566</div>`)[0];
+            popup_3ee6cb04111a49178b9d98fcdc989f1b.setContent(html_639533a26db04caeb027c019ce64c495);
+        
+
+        marker_c6bcd9fd1e9940059d806b4ac9abf042.bindPopup(popup_3ee6cb04111a49178b9d98fcdc989f1b)
+        ;
+
+        
+    
+    
+            var marker_bbf16e9c13bc432fad5dbaf24a8be7f8 = L.marker(
+                [37.5167119999205, 127.105389605001],
+                {}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_99bcfe88e65642ecbbbc9aee35568bb3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_92e932f4b51642229887363b7687db5e = $(`<div id="html_92e932f4b51642229887363b7687db5e" style="width: 100.0%; height: 100.0%;">한국건강관리협회서울특-서울특별시 송파구 오금로 58</div>`)[0];
+            popup_99bcfe88e65642ecbbbc9aee35568bb3.setContent(html_92e932f4b51642229887363b7687db5e);
+        
+
+        marker_bbf16e9c13bc432fad5dbaf24a8be7f8.bindPopup(popup_99bcfe88e65642ecbbbc9aee35568bb3)
+        ;
+
+        
+    
+    
+            var marker_41e28c0ff67a4ed9a2f8a88122204f27 = L.marker(
+                [37.5122416439178, 127.008209768382],
+                {}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_50f340c6929d4dd2ab3839d18a884e87 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_363280517a0442d7babd1f1f774a62d0 = $(`<div id="html_363280517a0442d7babd1f1f774a62d0" style="width: 100.0%; height: 100.0%;">정해복지부설한신메디피아-서울특별시 서초구 잠원로 88</div>`)[0];
+            popup_50f340c6929d4dd2ab3839d18a884e87.setContent(html_363280517a0442d7babd1f1f774a62d0);
+        
+
+        marker_41e28c0ff67a4ed9a2f8a88122204f27.bindPopup(popup_50f340c6929d4dd2ab3839d18a884e87)
+        ;
+
+        
+    
+    
+            var marker_b9108d85eaab46aaaae5075db36bc826 = L.marker(
+                [37.4853552935161, 127.037760918725],
+                {}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_084a887567f1445e88511640b3e08982 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_260b7f7c5bdb426fa685057970a34807 = $(`<div id="html_260b7f7c5bdb426fa685057970a34807" style="width: 100.0%; height: 100.0%;">성베드로병원-서울특별시 강남구 남부순환로 2633</div>`)[0];
+            popup_084a887567f1445e88511640b3e08982.setContent(html_260b7f7c5bdb426fa685057970a34807);
+        
+
+        marker_b9108d85eaab46aaaae5075db36bc826.bindPopup(popup_084a887567f1445e88511640b3e08982)
+        ;
+
+        
+    
+    
+            var marker_531725e1edaa49c2b615e17b9ada3ef5 = L.marker(
+                [37.512039105313, 126.92234810541599],
+                {}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_c5a96e2dac1f493e9617fcb0585cc034 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_274551624ec340e89c98def03f8d3910 = $(`<div id="html_274551624ec340e89c98def03f8d3910" style="width: 100.0%; height: 100.0%;">성애의료재단-서울특별시 영등포구 여의대방로53길 22</div>`)[0];
+            popup_c5a96e2dac1f493e9617fcb0585cc034.setContent(html_274551624ec340e89c98def03f8d3910);
+        
+
+        marker_531725e1edaa49c2b615e17b9ada3ef5.bindPopup(popup_c5a96e2dac1f493e9617fcb0585cc034)
+        ;
+
+        
+    
+    
+            var marker_343e11d8e68444c0b0837f38a526944d = L.marker(
+                [37.5086261318378, 127.05857971764799],
+                {}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_99ad6445ef424fb4afbf05c0233eaac2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9dd683952eca4cf180452371c88fdc43 = $(`<div id="html_9dd683952eca4cf180452371c88fdc43" style="width: 100.0%; height: 100.0%;">Y&T성모마취과-서울특별시 강남구 테헤란로87길 13</div>`)[0];
+            popup_99ad6445ef424fb4afbf05c0233eaac2.setContent(html_9dd683952eca4cf180452371c88fdc43);
+        
+
+        marker_343e11d8e68444c0b0837f38a526944d.bindPopup(popup_99ad6445ef424fb4afbf05c0233eaac2)
+        ;
+
+        
+    
+    
+            var marker_3ed2037af90347e0871cba482dceb9b1 = L.marker(
+                [37.5594460483099, 126.968082757311],
+                {}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_60033135e22647a8899e0772b6f621b5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e43412503a3c4d5b96e8afe079cd3e53 = $(`<div id="html_e43412503a3c4d5b96e8afe079cd3e53" style="width: 100.0%; height: 100.0%;">영남의료재단-서울특별시 중구 청파로 449-1</div>`)[0];
+            popup_60033135e22647a8899e0772b6f621b5.setContent(html_e43412503a3c4d5b96e8afe079cd3e53);
+        
+
+        marker_3ed2037af90347e0871cba482dceb9b1.bindPopup(popup_60033135e22647a8899e0772b6f621b5)
+        ;
+
+        
+    
+    
+            var marker_3770433cb24b4eb3960f086f2e28fa72 = L.marker(
+                [37.5648230830575, 126.98865503941299],
+                {}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_41f61e7d62c04eea96e1d60f000afd0c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cf7b07c739ce4ea8ab500453182bc469 = $(`<div id="html_cf7b07c739ce4ea8ab500453182bc469" style="width: 100.0%; height: 100.0%;">인제대학교서울백병원-서울특별시 중구 마른내로 9</div>`)[0];
+            popup_41f61e7d62c04eea96e1d60f000afd0c.setContent(html_cf7b07c739ce4ea8ab500453182bc469);
+        
+
+        marker_3770433cb24b4eb3960f086f2e28fa72.bindPopup(popup_41f61e7d62c04eea96e1d60f000afd0c)
+        ;
+
+        
+    
+    
+            var marker_3ca3d72edb394fdbbb94e77a1de47f76 = L.marker(
+                [37.5278109120341, 127.127997905164],
+                {}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_183c5f6d91bf4729b0cd3b5183f0ce7e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_051df0f2ad5b4d5f86d527b3b9e836be = $(`<div id="html_051df0f2ad5b4d5f86d527b3b9e836be" style="width: 100.0%; height: 100.0%;">한국필의료재단-서울특별시 강동구 성내로 71</div>`)[0];
+            popup_183c5f6d91bf4729b0cd3b5183f0ce7e.setContent(html_051df0f2ad5b4d5f86d527b3b9e836be);
+        
+
+        marker_3ca3d72edb394fdbbb94e77a1de47f76.bindPopup(popup_183c5f6d91bf4729b0cd3b5183f0ce7e)
+        ;
+
+        
+    
+    
+            var marker_856b61834b474e85b4e05d827f85ad99 = L.marker(
+                [37.579246142111, 127.04347135868099],
+                {}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_fcd92232ab704a2685979eb676a8cf26 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_62904611f9854912ae7194770d4900bc = $(`<div id="html_62904611f9854912ae7194770d4900bc" style="width: 100.0%; height: 100.0%;">가톨릭대학교성바오로병원장례식장-서울특별시 동대문구 왕산로 180</div>`)[0];
+            popup_fcd92232ab704a2685979eb676a8cf26.setContent(html_62904611f9854912ae7194770d4900bc);
+        
+
+        marker_856b61834b474e85b4e05d827f85ad99.bindPopup(popup_fcd92232ab704a2685979eb676a8cf26)
+        ;
+
+        
+    
+    
+            var marker_2d95e9a1200a441fa7063dd0dc32dbfe = L.marker(
+                [37.479617581958706, 126.956269598806],
+                {}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_e7ddefbb8da84e788ddf979a81e93fff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_99172f30af2a4f30933aecf7140a30ed = $(`<div id="html_99172f30af2a4f30933aecf7140a30ed" style="width: 100.0%; height: 100.0%;">사랑의병원-서울특별시 관악구 남부순환로 1860</div>`)[0];
+            popup_e7ddefbb8da84e788ddf979a81e93fff.setContent(html_99172f30af2a4f30933aecf7140a30ed);
+        
+
+        marker_2d95e9a1200a441fa7063dd0dc32dbfe.bindPopup(popup_e7ddefbb8da84e788ddf979a81e93fff)
+        ;
+
+        
+    
+    
+            var marker_b874b58b826f4cf9b6f94fc0fbe331e0 = L.marker(
+                [37.5522155545206, 126.835871375905],
+                {}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_320a18951bf64b3ea3aaa6d18b2c2dcc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3eeea2889ae94e529a6335b9b1abf82a = $(`<div id="html_3eeea2889ae94e529a6335b9b1abf82a" style="width: 100.0%; height: 100.0%;">성삼의료재단미즈메디병원-서울특별시 강서구 강서로 295</div>`)[0];
+            popup_320a18951bf64b3ea3aaa6d18b2c2dcc.setContent(html_3eeea2889ae94e529a6335b9b1abf82a);
+        
+
+        marker_b874b58b826f4cf9b6f94fc0fbe331e0.bindPopup(popup_320a18951bf64b3ea3aaa6d18b2c2dcc)
+        ;
+
+        
+    
+    
+            var marker_d7899557cc404ed194f7ddb2c8726aab = L.marker(
+                [37.5188069808785, 126.903856966109],
+                {}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_ab5b731179a14fa8a8ceeea0f310c65c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_122b9184c9864537af1184cb7add9488 = $(`<div id="html_122b9184c9864537af1184cb7add9488" style="width: 100.0%; height: 100.0%;">씨엠충무병원-서울특별시 영등포구 영등포로36길 13</div>`)[0];
+            popup_ab5b731179a14fa8a8ceeea0f310c65c.setContent(html_122b9184c9864537af1184cb7add9488);
+        
+
+        marker_d7899557cc404ed194f7ddb2c8726aab.bindPopup(popup_ab5b731179a14fa8a8ceeea0f310c65c)
+        ;
+
+        
+    
+    
+            var marker_52795fe85c1f41b8a04a07ad830cab40 = L.marker(
+                [37.5835570580505, 127.08604442985501],
+                {}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_6179394f010742fcb6e32e90cc2f4f7a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e17465170ba9445f8975562a6ba2abb8 = $(`<div id="html_e17465170ba9445f8975562a6ba2abb8" style="width: 100.0%; height: 100.0%;">원진재단부설녹색병원-서울특별시 중랑구 사가정로49길 53</div>`)[0];
+            popup_6179394f010742fcb6e32e90cc2f4f7a.setContent(html_e17465170ba9445f8975562a6ba2abb8);
+        
+
+        marker_52795fe85c1f41b8a04a07ad830cab40.bindPopup(popup_6179394f010742fcb6e32e90cc2f4f7a)
+        ;
+
+        
+    
+    
+            var marker_96eafe8341514ba284311d3cb1de424b = L.marker(
+                [37.4884364039536, 127.10296779054501],
+                {}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_27d8fbb817a7459982b35596ed5546da = L.popup({"maxWidth": "100%"});
+
+        
+            var html_17b6048713f6470186571197918a99ee = $(`<div id="html_17b6048713f6470186571197918a99ee" style="width: 100.0%; height: 100.0%;">강남센트럴병원-서울특별시 강남구 광평로51길 6-9</div>`)[0];
+            popup_27d8fbb817a7459982b35596ed5546da.setContent(html_17b6048713f6470186571197918a99ee);
+        
+
+        marker_96eafe8341514ba284311d3cb1de424b.bindPopup(popup_27d8fbb817a7459982b35596ed5546da)
+        ;
+
+        
+    
+    
+            var marker_864ab2c6e5f147ae861694c55769dc32 = L.marker(
+                [37.5190874717723, 127.049590630364],
+                {}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_bdfbc6482674451bb4771f4cb5e31021 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ec3b77a6a63341a3af587c6948e59ed5 = $(`<div id="html_ec3b77a6a63341a3af587c6948e59ed5" style="width: 100.0%; height: 100.0%;">우리들병원-서울특별시 강남구 학동로 445</div>`)[0];
+            popup_bdfbc6482674451bb4771f4cb5e31021.setContent(html_ec3b77a6a63341a3af587c6948e59ed5);
+        
+
+        marker_864ab2c6e5f147ae861694c55769dc32.bindPopup(popup_bdfbc6482674451bb4771f4cb5e31021)
+        ;
+
+        
+    
+    
+            var marker_9823c088efc545bc84f7156e987f7e99 = L.marker(
+                [37.541224682309704, 127.07204319614999],
+                {}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_b254f4fc10b04fdbbb667aa6a0c0f432 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4820a57223d1441b9bc70efa98ea203c = $(`<div id="html_4820a57223d1441b9bc70efa98ea203c" style="width: 100.0%; height: 100.0%;">건국대학교병원-서울특별시 광진구 능동로 120-1</div>`)[0];
+            popup_b254f4fc10b04fdbbb667aa6a0c0f432.setContent(html_4820a57223d1441b9bc70efa98ea203c);
+        
+
+        marker_9823c088efc545bc84f7156e987f7e99.bindPopup(popup_b254f4fc10b04fdbbb667aa6a0c0f432)
+        ;
+
+        
+    
+    
+            var marker_d5ed6f2a70454069ad186681f013ce17 = L.marker(
+                [37.5667546922405, 126.96718956735],
+                {}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_62dfcf23b09544b19502c2e0b699f39f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_388ed360963b472c9cc3275da9071110 = $(`<div id="html_388ed360963b472c9cc3275da9071110" style="width: 100.0%; height: 100.0%;">서울적십자병원-서울특별시 종로구 새문안로 9</div>`)[0];
+            popup_62dfcf23b09544b19502c2e0b699f39f.setContent(html_388ed360963b472c9cc3275da9071110);
+        
+
+        marker_d5ed6f2a70454069ad186681f013ce17.bindPopup(popup_62dfcf23b09544b19502c2e0b699f39f)
+        ;
+
+        
+    
+    
+            var marker_5ad4ce5a7ffa4cddb68ee8f6a807f920 = L.marker(
+                [37.5231678292, 126.909675904297],
+                {}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_da446b6574384b369e3b9cce4e0d3902 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e52a6a46b76c407bb140d2088db2e81d = $(`<div id="html_e52a6a46b76c407bb140d2088db2e81d" style="width: 100.0%; height: 100.0%;">한림대학교부속한강성심병원장례식장-서울특별시 영등포구 버드나루로7길 12</div>`)[0];
+            popup_da446b6574384b369e3b9cce4e0d3902.setContent(html_e52a6a46b76c407bb140d2088db2e81d);
+        
+
+        marker_5ad4ce5a7ffa4cddb68ee8f6a807f920.bindPopup(popup_da446b6574384b369e3b9cce4e0d3902)
+        ;
+
+        
+    
+    
+            var marker_677192a595534253a726b4d64e7a97f3 = L.marker(
+                [37.528473265286706, 126.86361963768199],
+                {}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_6fe0a4dc296c4c4a8ec859c9c128ff26 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d1b51ec0e34a4f11b7502198a7aa635f = $(`<div id="html_d1b51ec0e34a4f11b7502198a7aa635f" style="width: 100.0%; height: 100.0%;">홍익병원-서울특별시 양천구 목동로 225</div>`)[0];
+            popup_6fe0a4dc296c4c4a8ec859c9c128ff26.setContent(html_d1b51ec0e34a4f11b7502198a7aa635f);
+        
+
+        marker_677192a595534253a726b4d64e7a97f3.bindPopup(popup_6fe0a4dc296c4c4a8ec859c9c128ff26)
+        ;
+
+        
+    
+    
+            var marker_722d1a4b23e14c149aa0aea39b17abc4 = L.marker(
+                [37.5023822369311, 127.00584071155399],
+                {}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_da07f6bd235645149900a291209bc165 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0b69f648cc84492ab278e2aba04ad3cf = $(`<div id="html_0b69f648cc84492ab278e2aba04ad3cf" style="width: 100.0%; height: 100.0%;">서울성모병원응급의료센터-서울특별시 서초구 반포대로 222</div>`)[0];
+            popup_da07f6bd235645149900a291209bc165.setContent(html_0b69f648cc84492ab278e2aba04ad3cf);
+        
+
+        marker_722d1a4b23e14c149aa0aea39b17abc4.bindPopup(popup_da07f6bd235645149900a291209bc165)
+        ;
+
+        
+    
+    
+            var marker_6e036627b3014aa6bd73849ce264c20c = L.marker(
+                [37.5636624910965, 126.986757791586],
+                {}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_3267a6eaea004143b2fda2ca21d4e7f5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_19cd62e603a14a6f8149de54f7b9108a = $(`<div id="html_19cd62e603a14a6f8149de54f7b9108a" style="width: 100.0%; height: 100.0%;">가톨릭대학교여의도성모병원-서울특별시 중구 명동길 74</div>`)[0];
+            popup_3267a6eaea004143b2fda2ca21d4e7f5.setContent(html_19cd62e603a14a6f8149de54f7b9108a);
+        
+
+        marker_6e036627b3014aa6bd73849ce264c20c.bindPopup(popup_3267a6eaea004143b2fda2ca21d4e7f5)
+        ;
+
+        
+    
+    
+            var marker_abb6d4ae79b047e7ab178f07ad35d857 = L.marker(
+                [37.5188069808785, 126.903856966109],
+                {}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_3d61d8c8e064499aa7b03c2e3e9c899f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_27e4ec245d16432da284875c67c2f89b = $(`<div id="html_27e4ec245d16432da284875c67c2f89b" style="width: 100.0%; height: 100.0%;">씨엠병원-서울특별시 영등포구 영등포로36길 13</div>`)[0];
+            popup_3d61d8c8e064499aa7b03c2e3e9c899f.setContent(html_27e4ec245d16432da284875c67c2f89b);
+        
+
+        marker_abb6d4ae79b047e7ab178f07ad35d857.bindPopup(popup_3d61d8c8e064499aa7b03c2e3e9c899f)
+        ;
+
+        
+    
+    
+            var marker_69ee1ccb27e44440aba625228fec5bbe = L.marker(
+                [37.485604263759605, 127.039566911558],
+                {}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_9d4b37f218cf40afa274f0c751161c7c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c0d4dd12d69841a0af1cc02ee5409967 = $(`<div id="html_c0d4dd12d69841a0af1cc02ee5409967" style="width: 100.0%; height: 100.0%;">성베드로병원-서울특별시 강남구 남부순환로 2649</div>`)[0];
+            popup_9d4b37f218cf40afa274f0c751161c7c.setContent(html_c0d4dd12d69841a0af1cc02ee5409967);
+        
+
+        marker_69ee1ccb27e44440aba625228fec5bbe.bindPopup(popup_9d4b37f218cf40afa274f0c751161c7c)
+        ;
+
+        
+    
+    
+            var marker_06afd006daa24033a388cb5881862d2f = L.marker(
+                [37.5590478066919, 127.088279358833],
+                {"encoding": "utf-8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_91073386c02048fe9910ed05c4df7b42 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_83c2902178864fc4ad75803347caa2b6 = $(`<div id="html_83c2902178864fc4ad75803347caa2b6" style="width: 100.0%; height: 100.0%;">대진의료재단-서울특별시 광진구 긴고랑로 119</div>`)[0];
+            popup_91073386c02048fe9910ed05c4df7b42.setContent(html_83c2902178864fc4ad75803347caa2b6);
+        
+
+        marker_06afd006daa24033a388cb5881862d2f.bindPopup(popup_91073386c02048fe9910ed05c4df7b42)
+        ;
+
+        
+    
+    
+            var marker_ded47f35ee6240958aa157e31fc78693 = L.marker(
+                [37.529213286364396, 126.86280512854499],
+                {"encoding": "utf-8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_2a38b3d2d4f04b489926338c0bb36151 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_add57d7306cf4f118cc04d4e08d54d0c = $(`<div id="html_add57d7306cf4f118cc04d4e08d54d0c" style="width: 100.0%; height: 100.0%;">홍익병원별관-서울특별시 양천구 국회대로 250</div>`)[0];
+            popup_2a38b3d2d4f04b489926338c0bb36151.setContent(html_add57d7306cf4f118cc04d4e08d54d0c);
+        
+
+        marker_ded47f35ee6240958aa157e31fc78693.bindPopup(popup_2a38b3d2d4f04b489926338c0bb36151)
+        ;
+
+        
+    
+    
+            var marker_2ec51cd5d3f04497902df6991e3fca79 = L.marker(
+                [37.4996302661116, 127.035824788941],
+                {"encoding": "utf-8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_e9ea681bce3c4877a1eae710807708fd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5774fde640f04ef29d1ae24f4c37ddba = $(`<div id="html_5774fde640f04ef29d1ae24f4c37ddba" style="width: 100.0%; height: 100.0%;">SNUH-서울특별시 강남구 테헤란로26길 10</div>`)[0];
+            popup_e9ea681bce3c4877a1eae710807708fd.setContent(html_5774fde640f04ef29d1ae24f4c37ddba);
+        
+
+        marker_2ec51cd5d3f04497902df6991e3fca79.bindPopup(popup_e9ea681bce3c4877a1eae710807708fd)
+        ;
+
+        
+    
+    
+            var marker_76687c38677f41b48e8282bd44b1e0bd = L.marker(
+                [37.5594688006573, 127.041324711886],
+                {"encoding": "utf-8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_43ae90210f2d41e683bc1ce0e1ea675a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5bd91cff40124d2ebec97aac4a6a12c7 = $(`<div id="html_5bd91cff40124d2ebec97aac4a6a12c7" style="width: 100.0%; height: 100.0%;">한양-서울특별시 성동구 마조로 22-2</div>`)[0];
+            popup_43ae90210f2d41e683bc1ce0e1ea675a.setContent(html_5bd91cff40124d2ebec97aac4a6a12c7);
+        
+
+        marker_76687c38677f41b48e8282bd44b1e0bd.bindPopup(popup_43ae90210f2d41e683bc1ce0e1ea675a)
+        ;
+
+        
+    
+    
+            var marker_20ae7b98aa654b1aaa32ff3a581b220c = L.marker(
+                [37.542270809833205, 127.125283411621],
+                {"encoding": "utf-8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_fa6815f8302e493a953fd59798c8a487 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4dc601e0182b4dc886a4b87bb6bffd33 = $(`<div id="html_4dc601e0182b4dc886a4b87bb6bffd33" style="width: 100.0%; height: 100.0%;">백산의료재단친구병원-서울특별시 강동구 올림픽로 684</div>`)[0];
+            popup_fa6815f8302e493a953fd59798c8a487.setContent(html_4dc601e0182b4dc886a4b87bb6bffd33);
+        
+
+        marker_20ae7b98aa654b1aaa32ff3a581b220c.bindPopup(popup_fa6815f8302e493a953fd59798c8a487)
+        ;
+
+        
+    
+    
+            var marker_cb9457b5a8f443a2a1036a6d8f660385 = L.marker(
+                [37.528460878258706, 127.147914226576],
+                {"encoding": "utf-8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_b41f7f5cb1144209ae3cec9256e52c59 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_531e8a657c474399b3e8bdebe34c4941 = $(`<div id="html_531e8a657c474399b3e8bdebe34c4941" style="width: 100.0%; height: 100.0%;">서울보훈병원-서울특별시 강동구 진황도로61길 53</div>`)[0];
+            popup_b41f7f5cb1144209ae3cec9256e52c59.setContent(html_531e8a657c474399b3e8bdebe34c4941);
+        
+
+        marker_cb9457b5a8f443a2a1036a6d8f660385.bindPopup(popup_b41f7f5cb1144209ae3cec9256e52c59)
+        ;
+
+        
+    
+    
+            var marker_aa833e2d6ecd4b73a199ef7751c5ad07 = L.marker(
+                [37.5000141135255, 127.03648711873699],
+                {"encoding": "utf-8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_cebd2b505c3e4bc0ae38b25dbe9df7a2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_df5de5f85b6d4a6b82720a6e058a13e1 = $(`<div id="html_df5de5f85b6d4a6b82720a6e058a13e1" style="width: 100.0%; height: 100.0%;">서울대학교병원-서울특별시 강남구 테헤란로 152</div>`)[0];
+            popup_cebd2b505c3e4bc0ae38b25dbe9df7a2.setContent(html_df5de5f85b6d4a6b82720a6e058a13e1);
+        
+
+        marker_aa833e2d6ecd4b73a199ef7751c5ad07.bindPopup(popup_cebd2b505c3e4bc0ae38b25dbe9df7a2)
+        ;
+
+        
+    
+    
+            var marker_b64016b4d0704252b8ffb8192e0302b2 = L.marker(
+                [37.561708789577104, 126.999619848188],
+                {"encoding": "utf-8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_2bbf7553725640d18d32d014355a5927 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e5b80d543bd449a1807b4adfdac6e440 = $(`<div id="html_e5b80d543bd449a1807b4adfdac6e440" style="width: 100.0%; height: 100.0%;">제일병원-서울특별시 중구 서애로1길 17</div>`)[0];
+            popup_2bbf7553725640d18d32d014355a5927.setContent(html_e5b80d543bd449a1807b4adfdac6e440);
+        
+
+        marker_b64016b4d0704252b8ffb8192e0302b2.bindPopup(popup_2bbf7553725640d18d32d014355a5927)
+        ;
+
+        
+    
+    
+            var marker_b9f16b7a785242e5aef66dcf7410f83d = L.marker(
+                [37.481907504751504, 126.881567999979],
+                {"encoding": "utf-8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_5cca2aadeaf5413ea4207edeca96c413 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7692f9ad89724572b42ee1f7e57b7a01 = $(`<div id="html_7692f9ad89724572b42ee1f7e57b7a01" style="width: 100.0%; height: 100.0%;">이랜드클리닉-서울특별시 금천구 가산디지털1로 186</div>`)[0];
+            popup_5cca2aadeaf5413ea4207edeca96c413.setContent(html_7692f9ad89724572b42ee1f7e57b7a01);
+        
+
+        marker_b9f16b7a785242e5aef66dcf7410f83d.bindPopup(popup_5cca2aadeaf5413ea4207edeca96c413)
+        ;
+
+        
+    
+    
+            var marker_4144a5d1910047a29451855c0c923e3c = L.marker(
+                [37.5598884579046, 126.964069882556],
+                {"encoding": "utf-8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_86afa47981d54413b0986ab79295f176 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d75e760e6f8e45e9bf78ea6b1a2e0dd0 = $(`<div id="html_d75e760e6f8e45e9bf78ea6b1a2e0dd0" style="width: 100.0%; height: 100.0%;">사랑나눔의료재단-서울특별시 서대문구 서소문로 21</div>`)[0];
+            popup_86afa47981d54413b0986ab79295f176.setContent(html_d75e760e6f8e45e9bf78ea6b1a2e0dd0);
+        
+
+        marker_4144a5d1910047a29451855c0c923e3c.bindPopup(popup_86afa47981d54413b0986ab79295f176)
+        ;
+
+        
+    
+    
+            var marker_44082423b7a349ea9569214cfe6bc422 = L.marker(
+                [37.5884849860916, 127.031701809695],
+                {"encoding": "utf-8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_47a645ab7af84427b320072edce4859e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dfacd1604356463087dba36ae2ece302 = $(`<div id="html_dfacd1604356463087dba36ae2ece302" style="width: 100.0%; height: 100.0%;">우울증센터-서울특별시 성북구 안암로 145</div>`)[0];
+            popup_47a645ab7af84427b320072edce4859e.setContent(html_dfacd1604356463087dba36ae2ece302);
+        
+
+        marker_44082423b7a349ea9569214cfe6bc422.bindPopup(popup_47a645ab7af84427b320072edce4859e)
+        ;
+
+        
+    
+    
+            var marker_254bc6702dbf4fc980fd34207e9e0e31 = L.marker(
+                [37.5234259336424, 126.91030567607599],
+                {"encoding": "utf-8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_46fa8b2055ec4275ba4986ca9b2d5bc3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_57a046673f1c48d79465404b06941ead = $(`<div id="html_57a046673f1c48d79465404b06941ead" style="width: 100.0%; height: 100.0%;">성심의료재단-서울특별시 영등포구 버드나루로 55</div>`)[0];
+            popup_46fa8b2055ec4275ba4986ca9b2d5bc3.setContent(html_57a046673f1c48d79465404b06941ead);
+        
+
+        marker_254bc6702dbf4fc980fd34207e9e0e31.bindPopup(popup_46fa8b2055ec4275ba4986ca9b2d5bc3)
+        ;
+
+        
+    
+    
+            var marker_ebce601b26404a0d9b108b6ac7fdc584 = L.marker(
+                [37.4967193539591, 126.85695376699499],
+                {"encoding": "utf-8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_327f0b3d9b7140a8bc4db17830c9dceb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bb9926a326654829ab4403b42730eb7b = $(`<div id="html_bb9926a326654829ab4403b42730eb7b" style="width: 100.0%; height: 100.0%;">다나의료재단-서울특별시 구로구 개봉로 126</div>`)[0];
+            popup_327f0b3d9b7140a8bc4db17830c9dceb.setContent(html_bb9926a326654829ab4403b42730eb7b);
+        
+
+        marker_ebce601b26404a0d9b108b6ac7fdc584.bindPopup(popup_327f0b3d9b7140a8bc4db17830c9dceb)
+        ;
+
+        
+    
+    
+            var marker_e1556550618f4bfab2356aa1d4b67269 = L.marker(
+                [37.5252476485773, 127.109315275715],
+                {"encoding": "utf-8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_c9e58479075049ba8ea0e1bdc8b77bbf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ea055490b8b04ad5aa7ee5dc676465c0 = $(`<div id="html_ea055490b8b04ad5aa7ee5dc676465c0" style="width: 100.0%; height: 100.0%;">서울아산병원신관-서울특별시 송파구 올림픽로43길 88</div>`)[0];
+            popup_c9e58479075049ba8ea0e1bdc8b77bbf.setContent(html_ea055490b8b04ad5aa7ee5dc676465c0);
+        
+
+        marker_e1556550618f4bfab2356aa1d4b67269.bindPopup(popup_c9e58479075049ba8ea0e1bdc8b77bbf)
+        ;
+
+        
+    
+    
+            var marker_22b0dc43f68848348a84d1313cd25b5b = L.marker(
+                [37.6288082757637, 127.082669636243],
+                {"encoding": "utf-8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_c20bc4e821694e65b634c976c3cdee4e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e9e1bd3abf464fe588f048568f32539c = $(`<div id="html_e9e1bd3abf464fe588f048568f32539c" style="width: 100.0%; height: 100.0%;">원자력병원장례식장-서울특별시 노원구 노원로 75</div>`)[0];
+            popup_c20bc4e821694e65b634c976c3cdee4e.setContent(html_e9e1bd3abf464fe588f048568f32539c);
+        
+
+        marker_22b0dc43f68848348a84d1313cd25b5b.bindPopup(popup_c20bc4e821694e65b634c976c3cdee4e)
+        ;
+
+        
+    
+    
+            var marker_ea8fde4e7e19461d83583f99df87ab96 = L.marker(
+                [37.491208532547496, 126.8846634435],
+                {"encoding": "utf-8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_bd4da402a87c47de908046a91b3283de = L.popup({"maxWidth": "100%"});
+
+        
+            var html_951d41d5d88143f4bdb0d663b2cd0d7d = $(`<div id="html_951d41d5d88143f4bdb0d663b2cd0d7d" style="width: 100.0%; height: 100.0%;">고려대학교구로병원-서울특별시 구로구 구로동로 148</div>`)[0];
+            popup_bd4da402a87c47de908046a91b3283de.setContent(html_951d41d5d88143f4bdb0d663b2cd0d7d);
+        
+
+        marker_ea8fde4e7e19461d83583f99df87ab96.bindPopup(popup_bd4da402a87c47de908046a91b3283de)
+        ;
+
+        
+    
+    
+            var marker_c0d1cdd748474e96ad3d0b4331bdeed7 = L.marker(
+                [37.5234259336424, 126.91030567607599],
+                {"encoding": "utf-8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_62d5003b6bbf435ea93733ca29297091 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_21ef53f86260463497ebb09f1ce7d249 = $(`<div id="html_21ef53f86260463497ebb09f1ce7d249" style="width: 100.0%; height: 100.0%;">학교법인일송학원-서울특별시 영등포구 버드나루로 55</div>`)[0];
+            popup_62d5003b6bbf435ea93733ca29297091.setContent(html_21ef53f86260463497ebb09f1ce7d249);
+        
+
+        marker_c0d1cdd748474e96ad3d0b4331bdeed7.bindPopup(popup_62d5003b6bbf435ea93733ca29297091)
+        ;
+
+        
+    
+    
+            var marker_81db008fca7f4296a1e80dd815aba691 = L.marker(
+                [37.490334340869495, 127.08957883163201],
+                {"encoding": "utf-8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_1bfcc165838543b9aa17cb309b9f3f32 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_643b286f24644475b2b5d5dd85d19abd = $(`<div id="html_643b286f24644475b2b5d5dd85d19abd" style="width: 100.0%; height: 100.0%;">삼성의료원장례식장-서울특별시 강남구 일원로 81</div>`)[0];
+            popup_1bfcc165838543b9aa17cb309b9f3f32.setContent(html_643b286f24644475b2b5d5dd85d19abd);
+        
+
+        marker_81db008fca7f4296a1e80dd815aba691.bindPopup(popup_1bfcc165838543b9aa17cb309b9f3f32)
+        ;
+
+        
+    
+    
+            var marker_06c7c8b230c24344828344183c845d74 = L.marker(
+                [37.4544208148109, 126.90123704027701],
+                {"encoding": "utf-8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_eac7a492a2cb4b0eb0525b22a70cd7f5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d829449051f6460a8c1179220bd44c4e = $(`<div id="html_d829449051f6460a8c1179220bd44c4e" style="width: 100.0%; height: 100.0%;">희명스포츠의학센터인공신장실-서울특별시 금천구 시흥대로 230</div>`)[0];
+            popup_eac7a492a2cb4b0eb0525b22a70cd7f5.setContent(html_d829449051f6460a8c1179220bd44c4e);
+        
+
+        marker_06c7c8b230c24344828344183c845d74.bindPopup(popup_eac7a492a2cb4b0eb0525b22a70cd7f5)
+        ;
+
+        
+    
+    
+            var marker_71641e43f26449ea831c8ac8e56aaf21 = L.marker(
+                [37.4927951351961, 127.046293864724],
+                {"encoding": "utf-8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_4bd5763df7374d4e817837270ed11c37 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_faac5aad908e44859b21ba1d983a35b1 = $(`<div id="html_faac5aad908e44859b21ba1d983a35b1" style="width: 100.0%; height: 100.0%;">연세대학교의과대학강남세브란스-서울특별시 강남구 언주로 211</div>`)[0];
+            popup_4bd5763df7374d4e817837270ed11c37.setContent(html_faac5aad908e44859b21ba1d983a35b1);
+        
+
+        marker_71641e43f26449ea831c8ac8e56aaf21.bindPopup(popup_4bd5763df7374d4e817837270ed11c37)
+        ;
+
+        
+    
+    
+            var marker_50fb5965c02848b49861534d3118829e = L.marker(
+                [37.5653138819736, 127.086437154639],
+                {"encoding": "utf-8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_61e33cb49397444ea9494a55ba1e558f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0bf0cc8f9d044f8f9734feaddcbdb02a = $(`<div id="html_0bf0cc8f9d044f8f9734feaddcbdb02a" style="width: 100.0%; height: 100.0%;">국립정신병원-서울특별시 광진구 능동로 398</div>`)[0];
+            popup_61e33cb49397444ea9494a55ba1e558f.setContent(html_0bf0cc8f9d044f8f9734feaddcbdb02a);
+        
+
+        marker_50fb5965c02848b49861534d3118829e.bindPopup(popup_61e33cb49397444ea9494a55ba1e558f)
+        ;
+
+        
+    
+    
+            var marker_5aad5e149baf41f2b78fe488f220c16c = L.marker(
+                [37.5041585815151, 127.05203064685499],
+                {"encoding": "utf-8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_85cda74526524bed945c440af3b5b55a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b635bdb1eb0d4dbeb817d029c78a6979 = $(`<div id="html_b635bdb1eb0d4dbeb817d029c78a6979" style="width: 100.0%; height: 100.0%;">코아클리닉-서울특별시 강남구 선릉로86길 31</div>`)[0];
+            popup_85cda74526524bed945c440af3b5b55a.setContent(html_b635bdb1eb0d4dbeb817d029c78a6979);
+        
+
+        marker_5aad5e149baf41f2b78fe488f220c16c.bindPopup(popup_85cda74526524bed945c440af3b5b55a)
+        ;
+
+        
+    
+    
+            var marker_b5192a63db0244b8972fb4fae6315023 = L.marker(
+                [37.6466791728505, 127.02904307821301],
+                {"encoding": "utf-8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_5a9db9dc80a3446f9312dc5ce8bf5aef = L.popup({"maxWidth": "100%"});
+
+        
+            var html_553e097d19d04244966495b255d43b64 = $(`<div id="html_553e097d19d04244966495b255d43b64" style="width: 100.0%; height: 100.0%;">한국전력공사부속한일병원-서울특별시 도봉구 우이천로 308</div>`)[0];
+            popup_5a9db9dc80a3446f9312dc5ce8bf5aef.setContent(html_553e097d19d04244966495b255d43b64);
+        
+
+        marker_b5192a63db0244b8972fb4fae6315023.bindPopup(popup_5a9db9dc80a3446f9312dc5ce8bf5aef)
+        ;
+
+        
+    
+    
+            var marker_cb0b1e1fd76a48d5b1de20c2f3ee4a03 = L.marker(
+                [37.552351350337, 126.934217029717],
+                {"encoding": "utf-8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_b04304f375a24f7998870eb564ecfa99 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b4abe9c773ad454c8097b441d1aafd81 = $(`<div id="html_b4abe9c773ad454c8097b441d1aafd81" style="width: 100.0%; height: 100.0%;">신촌연세병원-서울특별시 마포구 서강로14길 14</div>`)[0];
+            popup_b04304f375a24f7998870eb564ecfa99.setContent(html_b4abe9c773ad454c8097b441d1aafd81);
+        
+
+        marker_cb0b1e1fd76a48d5b1de20c2f3ee4a03.bindPopup(popup_b04304f375a24f7998870eb564ecfa99)
+        ;
+
+        
+    
+    
+            var marker_65e272f1175848c4a241a8db328b4a92 = L.marker(
+                [37.4927951351961, 127.046293864724],
+                {"encoding": "utf-8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_f4332a0201124d96bebc4c319f18dc61 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_257eec2409b948bcbfccca2b4397b758 = $(`<div id="html_257eec2409b948bcbfccca2b4397b758" style="width: 100.0%; height: 100.0%;">영동세브란스병원-서울특별시 강남구 언주로 211</div>`)[0];
+            popup_f4332a0201124d96bebc4c319f18dc61.setContent(html_257eec2409b948bcbfccca2b4397b758);
+        
+
+        marker_65e272f1175848c4a241a8db328b4a92.bindPopup(popup_f4332a0201124d96bebc4c319f18dc61)
+        ;
+
+        
+    
+    
+            var marker_c3056f418ed2466894836cdfc9ff75c7 = L.marker(
+                [37.5623763649704, 126.975546803857],
+                {"encoding": "utf-8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_c1e25d5ac4f74fb197ed9ba94ab70f9a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4ef99e7672a040189f0d21a8b352de23 = $(`<div id="html_4ef99e7672a040189f0d21a8b352de23" style="width: 100.0%; height: 100.0%;">삼성의료재단강북삼성태-서울특별시 중구 세종대로 67</div>`)[0];
+            popup_c1e25d5ac4f74fb197ed9ba94ab70f9a.setContent(html_4ef99e7672a040189f0d21a8b352de23);
+        
+
+        marker_c3056f418ed2466894836cdfc9ff75c7.bindPopup(popup_c1e25d5ac4f74fb197ed9ba94ab70f9a)
+        ;
+
+        
+    
+    
+            var marker_1802b54d2b4442feafd94baf8c6c4bea = L.marker(
+                [37.492999919576505, 126.92431799318399],
+                {"encoding": "utf-8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_c254f2650d754a6b87776b023699b31e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5eb010b4ed7e44469cbec3fd5e4523c9 = $(`<div id="html_5eb010b4ed7e44469cbec3fd5e4523c9" style="width: 100.0%; height: 100.0%;">서울시립보라매병원-서울특별시 동작구 보라매로5길 20</div>`)[0];
+            popup_c254f2650d754a6b87776b023699b31e.setContent(html_5eb010b4ed7e44469cbec3fd5e4523c9);
+        
+
+        marker_1802b54d2b4442feafd94baf8c6c4bea.bindPopup(popup_c254f2650d754a6b87776b023699b31e)
+        ;
+
+        
+    
+    
+            var marker_087ee041a3744944a0e31aadcc1277b9 = L.marker(
+                [37.58044782245471, 126.997184076959],
+                {"encoding": "utf-8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_dce07f0e9e5d4cdaa7034f44abe17b91 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fdc5aecf33bf4a57b0a296e04c326de8 = $(`<div id="html_fdc5aecf33bf4a57b0a296e04c326de8" style="width: 100.0%; height: 100.0%;">서울대학교병원비상계획외래-서울특별시 종로구 대학로 101</div>`)[0];
+            popup_dce07f0e9e5d4cdaa7034f44abe17b91.setContent(html_fdc5aecf33bf4a57b0a296e04c326de8);
+        
+
+        marker_087ee041a3744944a0e31aadcc1277b9.bindPopup(popup_dce07f0e9e5d4cdaa7034f44abe17b91)
+        ;
+
+        
+    
+    
+            var marker_863254b42131479da36925736547d6ef = L.marker(
+                [37.5023822369311, 127.00584071155399],
+                {"encoding": "utf-8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_387a03b019ee476e9c997abd5f597afc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_19d14d279fc84df280aa2b36e722f881 = $(`<div id="html_19d14d279fc84df280aa2b36e722f881" style="width: 100.0%; height: 100.0%;">평화드림서울성모병원의료-서울특별시 서초구 반포대로 222</div>`)[0];
+            popup_387a03b019ee476e9c997abd5f597afc.setContent(html_19d14d279fc84df280aa2b36e722f881);
+        
+
+        marker_863254b42131479da36925736547d6ef.bindPopup(popup_387a03b019ee476e9c997abd5f597afc)
+        ;
+
+        
+    
+    
+            var marker_c2cb8796a5404b598767ef54be19e078 = L.marker(
+                [37.5287978094127, 126.863637341439],
+                {"encoding": "utf-8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_c8154158230f45388a9fd8f7a73c9bb4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a1f8560812144142aec5ff623dfbbe2c = $(`<div id="html_a1f8560812144142aec5ff623dfbbe2c" style="width: 100.0%; height: 100.0%;">홍익병원-서울특별시 양천구 목동로 227</div>`)[0];
+            popup_c8154158230f45388a9fd8f7a73c9bb4.setContent(html_a1f8560812144142aec5ff623dfbbe2c);
+        
+
+        marker_c2cb8796a5404b598767ef54be19e078.bindPopup(popup_c8154158230f45388a9fd8f7a73c9bb4)
+        ;
+
+        
+    
+    
+            var marker_7a16d7c5aa7b43bfb83222056b0c1bb5 = L.marker(
+                [37.5598884579046, 126.964069882556],
+                {"encoding": "utf-8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_a36d8b1028ca4c10845cb842af570c34 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_50f1500c13f5485ca70f391f850f324f = $(`<div id="html_50f1500c13f5485ca70f391f850f324f" style="width: 100.0%; height: 100.0%;">사랑나눔의료재단서-서울특별시 서대문구 서소문로 21</div>`)[0];
+            popup_a36d8b1028ca4c10845cb842af570c34.setContent(html_50f1500c13f5485ca70f391f850f324f);
+        
+
+        marker_7a16d7c5aa7b43bfb83222056b0c1bb5.bindPopup(popup_a36d8b1028ca4c10845cb842af570c34)
+        ;
+
+        
+    
+    
+            var marker_eb989073189a4287847f82f2ccd78e09 = L.marker(
+                [37.584867824713704, 127.031216512377],
+                {"encoding": "utf-8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_73735624eaa24bae92292eef92561446 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_16f32b5083ce47a794921aa8deb90d48 = $(`<div id="html_16f32b5083ce47a794921aa8deb90d48" style="width: 100.0%; height: 100.0%;">우신향병원-서울특별시 성북구 안암로 99</div>`)[0];
+            popup_73735624eaa24bae92292eef92561446.setContent(html_16f32b5083ce47a794921aa8deb90d48);
+        
+
+        marker_eb989073189a4287847f82f2ccd78e09.bindPopup(popup_73735624eaa24bae92292eef92561446)
+        ;
+
+        
+    
+    
+            var marker_44970ffabb9c4fd79f22eb232a6d0ff3 = L.marker(
+                [37.6008223690353, 127.108596273171],
+                {"encoding": "utf-8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_58f3b48a70eb46a8b6a0186c7ad638c4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bcdbcc2a63cc4d02afb32be9b5d4e137 = $(`<div id="html_bcdbcc2a63cc4d02afb32be9b5d4e137" style="width: 100.0%; height: 100.0%;">동부제일병원-서울특별시 중랑구 양원역로 2</div>`)[0];
+            popup_58f3b48a70eb46a8b6a0186c7ad638c4.setContent(html_bcdbcc2a63cc4d02afb32be9b5d4e137);
+        
+
+        marker_44970ffabb9c4fd79f22eb232a6d0ff3.bindPopup(popup_58f3b48a70eb46a8b6a0186c7ad638c4)
+        ;
+
+        
+    
+    
+            var marker_f88edd3b8f45415da06e0bfc30183baf = L.marker(
+                [37.51767433730021, 126.982708013371],
+                {"encoding": "utf-8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_9bb7d74557554f9aa17fa7f977e1906f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7bf35ef20a7b4e4e89b1643d42c6c184 = $(`<div id="html_7bf35ef20a7b4e4e89b1643d42c6c184" style="width: 100.0%; height: 100.0%;">아산재단금강병원-서울특별시 용산구 이촌로 318</div>`)[0];
+            popup_9bb7d74557554f9aa17fa7f977e1906f.setContent(html_7bf35ef20a7b4e4e89b1643d42c6c184);
+        
+
+        marker_f88edd3b8f45415da06e0bfc30183baf.bindPopup(popup_9bb7d74557554f9aa17fa7f977e1906f)
+        ;
+
+        
+    
+    
+            var marker_4fed6c4b76ac4c9db6b52ea646ae6378 = L.marker(
+                [37.519668760289505, 126.901570561173],
+                {"encoding": "utf-8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_3dcddfbb21e14a249c2f8269ace81c6d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_38341b8afaeb47b783c269e79776f07f = $(`<div id="html_38341b8afaeb47b783c269e79776f07f" style="width: 100.0%; height: 100.0%;">명곡안연구소-서울특별시 영등포구 영신로 136</div>`)[0];
+            popup_3dcddfbb21e14a249c2f8269ace81c6d.setContent(html_38341b8afaeb47b783c269e79776f07f);
+        
+
+        marker_4fed6c4b76ac4c9db6b52ea646ae6378.bindPopup(popup_3dcddfbb21e14a249c2f8269ace81c6d)
+        ;
+
+        
+    
+    
+            var marker_7bc0932e51c84e05b1384a5c7a83eaad = L.marker(
+                [37.5252476485773, 127.109315275715],
+                {"encoding": "utf-8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_0cec1c7dd5b840da879c25146c5ef4a0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7d513790c5d04530bf303ce98e958b32 = $(`<div id="html_7d513790c5d04530bf303ce98e958b32" style="width: 100.0%; height: 100.0%;">아산재단서울중앙병원-서울특별시 송파구 올림픽로43길 88</div>`)[0];
+            popup_0cec1c7dd5b840da879c25146c5ef4a0.setContent(html_7d513790c5d04530bf303ce98e958b32);
+        
+
+        marker_7bc0932e51c84e05b1384a5c7a83eaad.bindPopup(popup_0cec1c7dd5b840da879c25146c5ef4a0)
+        ;
+
+        
+    
+    
+            var marker_9c320c649b5e4e4ea259041c3fbbcdfe = L.marker(
+                [37.5372508450536, 126.827821479527],
+                {"encoding": "utf-8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_dc95afa7a4f44728ac70f6116e3832d2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9d1bb0d3d1ed41f19262d15fbc3b2b58 = $(`<div id="html_9d1bb0d3d1ed41f19262d15fbc3b2b58" style="width: 100.0%; height: 100.0%;">메디힐특수여객-서울특별시 양천구 남부순환로 331</div>`)[0];
+            popup_dc95afa7a4f44728ac70f6116e3832d2.setContent(html_9d1bb0d3d1ed41f19262d15fbc3b2b58);
+        
+
+        marker_9c320c649b5e4e4ea259041c3fbbcdfe.bindPopup(popup_dc95afa7a4f44728ac70f6116e3832d2)
+        ;
+
+        
+    
+    
+            var marker_018597882485433c9c72affa92d3e0da = L.marker(
+                [37.490334340869495, 127.08957883163201],
+                {"encoding": "utf-8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_c9e806bc638441db839b8bfc5ef4fdeb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2d07449ef7eb47b6bb0299074cb0a940 = $(`<div id="html_2d07449ef7eb47b6bb0299074cb0a940" style="width: 100.0%; height: 100.0%;">삼성생명공익재단삼성서-서울특별시 강남구 일원로 81</div>`)[0];
+            popup_c9e806bc638441db839b8bfc5ef4fdeb.setContent(html_2d07449ef7eb47b6bb0299074cb0a940);
+        
+
+        marker_018597882485433c9c72affa92d3e0da.bindPopup(popup_c9e806bc638441db839b8bfc5ef4fdeb)
+        ;
+
+        
+    
+    
+            var marker_70c6155eca6a49289c944d160f81f201 = L.marker(
+                [37.5068404935954, 127.034940318209],
+                {"encoding": "utf-8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_d534be566d5f41b7bc924cac221c268e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b00f4cdfd9814b8ca261a7d4919c80bc = $(`<div id="html_b00f4cdfd9814b8ca261a7d4919c80bc" style="width: 100.0%; height: 100.0%;">성광의료재단차병원-서울특별시 강남구 논현로 566</div>`)[0];
+            popup_d534be566d5f41b7bc924cac221c268e.setContent(html_b00f4cdfd9814b8ca261a7d4919c80bc);
+        
+
+        marker_70c6155eca6a49289c944d160f81f201.bindPopup(popup_d534be566d5f41b7bc924cac221c268e)
+        ;
+
+        
+    
+    
+            var marker_6c8fdc605ba741b386ac93beab337264 = L.marker(
+                [37.5167119999205, 127.105389605001],
+                {"encoding": "utf-8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_af4713688f6e4d0a938c7ffc503b78ad = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9a35a1b24f7b4d839202891b361bde21 = $(`<div id="html_9a35a1b24f7b4d839202891b361bde21" style="width: 100.0%; height: 100.0%;">한국건강관리협회서울특-서울특별시 송파구 오금로 58</div>`)[0];
+            popup_af4713688f6e4d0a938c7ffc503b78ad.setContent(html_9a35a1b24f7b4d839202891b361bde21);
+        
+
+        marker_6c8fdc605ba741b386ac93beab337264.bindPopup(popup_af4713688f6e4d0a938c7ffc503b78ad)
+        ;
+
+        
+    
+    
+            var marker_fe66ad1731414917819ba1bc7b6f050a = L.marker(
+                [37.5122416439178, 127.008209768382],
+                {"encoding": "utf-8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_4301c8a5ac6a4b2182b84b20469b2977 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c9a63cbb690147a5b0df14219893162d = $(`<div id="html_c9a63cbb690147a5b0df14219893162d" style="width: 100.0%; height: 100.0%;">정해복지부설한신메디피아-서울특별시 서초구 잠원로 88</div>`)[0];
+            popup_4301c8a5ac6a4b2182b84b20469b2977.setContent(html_c9a63cbb690147a5b0df14219893162d);
+        
+
+        marker_fe66ad1731414917819ba1bc7b6f050a.bindPopup(popup_4301c8a5ac6a4b2182b84b20469b2977)
+        ;
+
+        
+    
+    
+            var marker_05a003838e334aaa93146bf839f37efb = L.marker(
+                [37.4853552935161, 127.037760918725],
+                {"encoding": "utf-8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_0b7e70fd381a4a2d9cd22de05bdabe4b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6609776b474f4038a69efe8ee55930c0 = $(`<div id="html_6609776b474f4038a69efe8ee55930c0" style="width: 100.0%; height: 100.0%;">성베드로병원-서울특별시 강남구 남부순환로 2633</div>`)[0];
+            popup_0b7e70fd381a4a2d9cd22de05bdabe4b.setContent(html_6609776b474f4038a69efe8ee55930c0);
+        
+
+        marker_05a003838e334aaa93146bf839f37efb.bindPopup(popup_0b7e70fd381a4a2d9cd22de05bdabe4b)
+        ;
+
+        
+    
+    
+            var marker_b5d03caa0f6c4f8692a3008306da3266 = L.marker(
+                [37.512039105313, 126.92234810541599],
+                {"encoding": "utf-8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_4da74878ceac404082ce46e1491d8a42 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_58abbeba77bb46bb9fe4273b42fd8d90 = $(`<div id="html_58abbeba77bb46bb9fe4273b42fd8d90" style="width: 100.0%; height: 100.0%;">성애의료재단-서울특별시 영등포구 여의대방로53길 22</div>`)[0];
+            popup_4da74878ceac404082ce46e1491d8a42.setContent(html_58abbeba77bb46bb9fe4273b42fd8d90);
+        
+
+        marker_b5d03caa0f6c4f8692a3008306da3266.bindPopup(popup_4da74878ceac404082ce46e1491d8a42)
+        ;
+
+        
+    
+    
+            var marker_8db684162a364bf59f689ee25dad7e5c = L.marker(
+                [37.5086261318378, 127.05857971764799],
+                {"encoding": "utf-8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_82fb23ec701e44f09fb1430d41968805 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_95877f86ef564b1cbf604d1264385d0d = $(`<div id="html_95877f86ef564b1cbf604d1264385d0d" style="width: 100.0%; height: 100.0%;">Y&T성모마취과-서울특별시 강남구 테헤란로87길 13</div>`)[0];
+            popup_82fb23ec701e44f09fb1430d41968805.setContent(html_95877f86ef564b1cbf604d1264385d0d);
+        
+
+        marker_8db684162a364bf59f689ee25dad7e5c.bindPopup(popup_82fb23ec701e44f09fb1430d41968805)
+        ;
+
+        
+    
+    
+            var marker_009cc267760e4250a95b4412961da831 = L.marker(
+                [37.5594460483099, 126.968082757311],
+                {"encoding": "utf-8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_036d5056216945e49a7ca9eaade6f47e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6dde0f07631d471bbce413e381b251a8 = $(`<div id="html_6dde0f07631d471bbce413e381b251a8" style="width: 100.0%; height: 100.0%;">영남의료재단-서울특별시 중구 청파로 449-1</div>`)[0];
+            popup_036d5056216945e49a7ca9eaade6f47e.setContent(html_6dde0f07631d471bbce413e381b251a8);
+        
+
+        marker_009cc267760e4250a95b4412961da831.bindPopup(popup_036d5056216945e49a7ca9eaade6f47e)
+        ;
+
+        
+    
+    
+            var marker_50578f0a769142e787f517fe9e9c1116 = L.marker(
+                [37.5648230830575, 126.98865503941299],
+                {"encoding": "utf-8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_4bdfd9f0b1bb4a0d96e29222db008ea0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8bfbbd5141f34644bfbcbf1d325e8dc3 = $(`<div id="html_8bfbbd5141f34644bfbcbf1d325e8dc3" style="width: 100.0%; height: 100.0%;">인제대학교서울백병원-서울특별시 중구 마른내로 9</div>`)[0];
+            popup_4bdfd9f0b1bb4a0d96e29222db008ea0.setContent(html_8bfbbd5141f34644bfbcbf1d325e8dc3);
+        
+
+        marker_50578f0a769142e787f517fe9e9c1116.bindPopup(popup_4bdfd9f0b1bb4a0d96e29222db008ea0)
+        ;
+
+        
+    
+    
+            var marker_c1989e62680f429c8fcf68baa44be437 = L.marker(
+                [37.5278109120341, 127.127997905164],
+                {"encoding": "utf-8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_b1dad01464124b7083eb736e716ff5f7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ff377efea5c048219d10f5d780f1a896 = $(`<div id="html_ff377efea5c048219d10f5d780f1a896" style="width: 100.0%; height: 100.0%;">한국필의료재단-서울특별시 강동구 성내로 71</div>`)[0];
+            popup_b1dad01464124b7083eb736e716ff5f7.setContent(html_ff377efea5c048219d10f5d780f1a896);
+        
+
+        marker_c1989e62680f429c8fcf68baa44be437.bindPopup(popup_b1dad01464124b7083eb736e716ff5f7)
+        ;
+
+        
+    
+    
+            var marker_6da1f94b30264747acab6fd8e00e719b = L.marker(
+                [37.579246142111, 127.04347135868099],
+                {"encoding": "utf-8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_6fa53837170a46d2a5ed7a4a15e6d6f5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_21ebd1b608344509bc9e13c362f0ba53 = $(`<div id="html_21ebd1b608344509bc9e13c362f0ba53" style="width: 100.0%; height: 100.0%;">가톨릭대학교성바오로병원장례식장-서울특별시 동대문구 왕산로 180</div>`)[0];
+            popup_6fa53837170a46d2a5ed7a4a15e6d6f5.setContent(html_21ebd1b608344509bc9e13c362f0ba53);
+        
+
+        marker_6da1f94b30264747acab6fd8e00e719b.bindPopup(popup_6fa53837170a46d2a5ed7a4a15e6d6f5)
+        ;
+
+        
+    
+    
+            var marker_35521ac79cba47bcb9df5b13dddb334f = L.marker(
+                [37.479617581958706, 126.956269598806],
+                {"encoding": "utf-8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_549aeedbf83c49969482e30f7d415f97 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e48d93d4e51b428ebe812722584dc806 = $(`<div id="html_e48d93d4e51b428ebe812722584dc806" style="width: 100.0%; height: 100.0%;">사랑의병원-서울특별시 관악구 남부순환로 1860</div>`)[0];
+            popup_549aeedbf83c49969482e30f7d415f97.setContent(html_e48d93d4e51b428ebe812722584dc806);
+        
+
+        marker_35521ac79cba47bcb9df5b13dddb334f.bindPopup(popup_549aeedbf83c49969482e30f7d415f97)
+        ;
+
+        
+    
+    
+            var marker_c12e167566bf4b81800f425655e81129 = L.marker(
+                [37.5522155545206, 126.835871375905],
+                {"encoding": "utf-8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_2381c0f581db41fbbcdbb912bb9c5738 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d1219840a9b4445e81c0a6e557cc438b = $(`<div id="html_d1219840a9b4445e81c0a6e557cc438b" style="width: 100.0%; height: 100.0%;">성삼의료재단미즈메디병원-서울특별시 강서구 강서로 295</div>`)[0];
+            popup_2381c0f581db41fbbcdbb912bb9c5738.setContent(html_d1219840a9b4445e81c0a6e557cc438b);
+        
+
+        marker_c12e167566bf4b81800f425655e81129.bindPopup(popup_2381c0f581db41fbbcdbb912bb9c5738)
+        ;
+
+        
+    
+    
+            var marker_d566785340814bb2b4e609bbdaf4651f = L.marker(
+                [37.5188069808785, 126.903856966109],
+                {"encoding": "utf-8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_c6e30cdc38df4d2a9c2afded68138c56 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eb067087c4ee41b8bd40138a5767503b = $(`<div id="html_eb067087c4ee41b8bd40138a5767503b" style="width: 100.0%; height: 100.0%;">씨엠충무병원-서울특별시 영등포구 영등포로36길 13</div>`)[0];
+            popup_c6e30cdc38df4d2a9c2afded68138c56.setContent(html_eb067087c4ee41b8bd40138a5767503b);
+        
+
+        marker_d566785340814bb2b4e609bbdaf4651f.bindPopup(popup_c6e30cdc38df4d2a9c2afded68138c56)
+        ;
+
+        
+    
+    
+            var marker_d3cfa1cce4f8417ea16318acd4ca460b = L.marker(
+                [37.5835570580505, 127.08604442985501],
+                {"encoding": "utf-8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_588a3fab883e41faa0c8fcd2cbcf1b44 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b3823f4a5ad74aa78d707e520021df32 = $(`<div id="html_b3823f4a5ad74aa78d707e520021df32" style="width: 100.0%; height: 100.0%;">원진재단부설녹색병원-서울특별시 중랑구 사가정로49길 53</div>`)[0];
+            popup_588a3fab883e41faa0c8fcd2cbcf1b44.setContent(html_b3823f4a5ad74aa78d707e520021df32);
+        
+
+        marker_d3cfa1cce4f8417ea16318acd4ca460b.bindPopup(popup_588a3fab883e41faa0c8fcd2cbcf1b44)
+        ;
+
+        
+    
+    
+            var marker_6127e902a192450c90f9e24c831ce123 = L.marker(
+                [37.4884364039536, 127.10296779054501],
+                {"encoding": "utf-8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_99149a3a67ca471391c91d289aac2312 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_65c8f2f2fdd4451ca58d45cde09ef17e = $(`<div id="html_65c8f2f2fdd4451ca58d45cde09ef17e" style="width: 100.0%; height: 100.0%;">강남센트럴병원-서울특별시 강남구 광평로51길 6-9</div>`)[0];
+            popup_99149a3a67ca471391c91d289aac2312.setContent(html_65c8f2f2fdd4451ca58d45cde09ef17e);
+        
+
+        marker_6127e902a192450c90f9e24c831ce123.bindPopup(popup_99149a3a67ca471391c91d289aac2312)
+        ;
+
+        
+    
+    
+            var marker_9e119ffb578a4d608fb7f2c24dcc983e = L.marker(
+                [37.5190874717723, 127.049590630364],
+                {"encoding": "utf-8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_fed3b31df8a24c01b53ffdff0c60c231 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b0fd35ff75694a95b0c46f9e8c76679b = $(`<div id="html_b0fd35ff75694a95b0c46f9e8c76679b" style="width: 100.0%; height: 100.0%;">우리들병원-서울특별시 강남구 학동로 445</div>`)[0];
+            popup_fed3b31df8a24c01b53ffdff0c60c231.setContent(html_b0fd35ff75694a95b0c46f9e8c76679b);
+        
+
+        marker_9e119ffb578a4d608fb7f2c24dcc983e.bindPopup(popup_fed3b31df8a24c01b53ffdff0c60c231)
+        ;
+
+        
+    
+    
+            var marker_1154e60569e74f18a01af9a93ee85dd5 = L.marker(
+                [37.541224682309704, 127.07204319614999],
+                {"encoding": "utf-8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_d1c83e99d341476e8e650a94e1bee0b3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cd1eac42e2a64048a5afaa596518736d = $(`<div id="html_cd1eac42e2a64048a5afaa596518736d" style="width: 100.0%; height: 100.0%;">건국대학교병원-서울특별시 광진구 능동로 120-1</div>`)[0];
+            popup_d1c83e99d341476e8e650a94e1bee0b3.setContent(html_cd1eac42e2a64048a5afaa596518736d);
+        
+
+        marker_1154e60569e74f18a01af9a93ee85dd5.bindPopup(popup_d1c83e99d341476e8e650a94e1bee0b3)
+        ;
+
+        
+    
+    
+            var marker_e0851c676fe54666b76e365bf2605110 = L.marker(
+                [37.5667546922405, 126.96718956735],
+                {"encoding": "utf-8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_70416863451040048fd878f7f76e489e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ed9d4cf5626741afbfa51717744abe44 = $(`<div id="html_ed9d4cf5626741afbfa51717744abe44" style="width: 100.0%; height: 100.0%;">서울적십자병원-서울특별시 종로구 새문안로 9</div>`)[0];
+            popup_70416863451040048fd878f7f76e489e.setContent(html_ed9d4cf5626741afbfa51717744abe44);
+        
+
+        marker_e0851c676fe54666b76e365bf2605110.bindPopup(popup_70416863451040048fd878f7f76e489e)
+        ;
+
+        
+    
+    
+            var marker_0e21cfbf930346248d0848fa10f3b3ad = L.marker(
+                [37.5231678292, 126.909675904297],
+                {"encoding": "utf-8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_8898b8379ec449a496582a549e56f4c9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_070ce9552fe744ef9dbaa03091adce92 = $(`<div id="html_070ce9552fe744ef9dbaa03091adce92" style="width: 100.0%; height: 100.0%;">한림대학교부속한강성심병원장례식장-서울특별시 영등포구 버드나루로7길 12</div>`)[0];
+            popup_8898b8379ec449a496582a549e56f4c9.setContent(html_070ce9552fe744ef9dbaa03091adce92);
+        
+
+        marker_0e21cfbf930346248d0848fa10f3b3ad.bindPopup(popup_8898b8379ec449a496582a549e56f4c9)
+        ;
+
+        
+    
+    
+            var marker_e9f9a20be37148e2b5cfb01348dbd51e = L.marker(
+                [37.528473265286706, 126.86361963768199],
+                {"encoding": "utf-8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_043a97504b524ce0a2a16de69b84786f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7f4ced2f83be4fe48788f841e9c80c68 = $(`<div id="html_7f4ced2f83be4fe48788f841e9c80c68" style="width: 100.0%; height: 100.0%;">홍익병원-서울특별시 양천구 목동로 225</div>`)[0];
+            popup_043a97504b524ce0a2a16de69b84786f.setContent(html_7f4ced2f83be4fe48788f841e9c80c68);
+        
+
+        marker_e9f9a20be37148e2b5cfb01348dbd51e.bindPopup(popup_043a97504b524ce0a2a16de69b84786f)
+        ;
+
+        
+    
+    
+            var marker_95af4fe31a3240db9bdb9669c594cc52 = L.marker(
+                [37.5023822369311, 127.00584071155399],
+                {"encoding": "utf-8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_01d742e2d5c94ec2875386e6c458f892 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6679ef5e2b824440b1918c5dd0226ee6 = $(`<div id="html_6679ef5e2b824440b1918c5dd0226ee6" style="width: 100.0%; height: 100.0%;">서울성모병원응급의료센터-서울특별시 서초구 반포대로 222</div>`)[0];
+            popup_01d742e2d5c94ec2875386e6c458f892.setContent(html_6679ef5e2b824440b1918c5dd0226ee6);
+        
+
+        marker_95af4fe31a3240db9bdb9669c594cc52.bindPopup(popup_01d742e2d5c94ec2875386e6c458f892)
+        ;
+
+        
+    
+    
+            var marker_bf7973b913b840b389555de92d26de13 = L.marker(
+                [37.5636624910965, 126.986757791586],
+                {"encoding": "utf-8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_003d38fde31b48d68745768640a60364 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b820d22a103442558ad6c084366d579b = $(`<div id="html_b820d22a103442558ad6c084366d579b" style="width: 100.0%; height: 100.0%;">가톨릭대학교여의도성모병원-서울특별시 중구 명동길 74</div>`)[0];
+            popup_003d38fde31b48d68745768640a60364.setContent(html_b820d22a103442558ad6c084366d579b);
+        
+
+        marker_bf7973b913b840b389555de92d26de13.bindPopup(popup_003d38fde31b48d68745768640a60364)
+        ;
+
+        
+    
+    
+            var marker_7c53137f494f429d86a354e795c7595e = L.marker(
+                [37.5188069808785, 126.903856966109],
+                {"encoding": "utf-8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_5cd5cc91aae54c589c8b893f50e687b1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d4c6c8c43c4c4f48acb7dcaf2a3b535e = $(`<div id="html_d4c6c8c43c4c4f48acb7dcaf2a3b535e" style="width: 100.0%; height: 100.0%;">씨엠병원-서울특별시 영등포구 영등포로36길 13</div>`)[0];
+            popup_5cd5cc91aae54c589c8b893f50e687b1.setContent(html_d4c6c8c43c4c4f48acb7dcaf2a3b535e);
+        
+
+        marker_7c53137f494f429d86a354e795c7595e.bindPopup(popup_5cd5cc91aae54c589c8b893f50e687b1)
+        ;
+
+        
+    
+    
+            var marker_6a90472273f640f4918f1098b75eda6f = L.marker(
+                [37.485604263759605, 127.039566911558],
+                {"encoding": "utf-8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_4d2ed16c4ccb4798b66924a8f88d66dc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_02ffe567aca243e0916087db52768a8e = $(`<div id="html_02ffe567aca243e0916087db52768a8e" style="width: 100.0%; height: 100.0%;">성베드로병원-서울특별시 강남구 남부순환로 2649</div>`)[0];
+            popup_4d2ed16c4ccb4798b66924a8f88d66dc.setContent(html_02ffe567aca243e0916087db52768a8e);
+        
+
+        marker_6a90472273f640f4918f1098b75eda6f.bindPopup(popup_4d2ed16c4ccb4798b66924a8f88d66dc)
+        ;
+
+        
+    
+    
+            var marker_f44fd8eca53d46bfa32bd3dfc9da7d4c = L.marker(
+                [37.5590478066919, 127.088279358833],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_4185b4c7cee34edea95be09f5714feb6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6265003e29714425ae138a66a644602f = $(`<div id="html_6265003e29714425ae138a66a644602f" style="width: 100.0%; height: 100.0%;">대진의료재단-서울특별시 광진구 긴고랑로 119</div>`)[0];
+            popup_4185b4c7cee34edea95be09f5714feb6.setContent(html_6265003e29714425ae138a66a644602f);
+        
+
+        marker_f44fd8eca53d46bfa32bd3dfc9da7d4c.bindPopup(popup_4185b4c7cee34edea95be09f5714feb6)
+        ;
+
+        
+    
+    
+            var marker_649da6920d1a4f09b790a1356a777611 = L.marker(
+                [37.529213286364396, 126.86280512854499],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_69e9f912ebd74eab8495cad2355eced8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d7975f8ae66a41c39419621dce1af0cc = $(`<div id="html_d7975f8ae66a41c39419621dce1af0cc" style="width: 100.0%; height: 100.0%;">홍익병원별관-서울특별시 양천구 국회대로 250</div>`)[0];
+            popup_69e9f912ebd74eab8495cad2355eced8.setContent(html_d7975f8ae66a41c39419621dce1af0cc);
+        
+
+        marker_649da6920d1a4f09b790a1356a777611.bindPopup(popup_69e9f912ebd74eab8495cad2355eced8)
+        ;
+
+        
+    
+    
+            var marker_9f149d129f5f4418aae0651fc482807f = L.marker(
+                [37.4996302661116, 127.035824788941],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_2d8723710c8e4f0f8b7623ee93a33724 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5827715fe5ed4c2f8dcce6f0dc4c8c3c = $(`<div id="html_5827715fe5ed4c2f8dcce6f0dc4c8c3c" style="width: 100.0%; height: 100.0%;">SNUH-서울특별시 강남구 테헤란로26길 10</div>`)[0];
+            popup_2d8723710c8e4f0f8b7623ee93a33724.setContent(html_5827715fe5ed4c2f8dcce6f0dc4c8c3c);
+        
+
+        marker_9f149d129f5f4418aae0651fc482807f.bindPopup(popup_2d8723710c8e4f0f8b7623ee93a33724)
+        ;
+
+        
+    
+    
+            var marker_16667cd9dd224613b154ba240eab595b = L.marker(
+                [37.5594688006573, 127.041324711886],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_59a9395cdae740b49f39141262b2d910 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_be8c16bcf010427b81b8bd9826ea79bb = $(`<div id="html_be8c16bcf010427b81b8bd9826ea79bb" style="width: 100.0%; height: 100.0%;">한양-서울특별시 성동구 마조로 22-2</div>`)[0];
+            popup_59a9395cdae740b49f39141262b2d910.setContent(html_be8c16bcf010427b81b8bd9826ea79bb);
+        
+
+        marker_16667cd9dd224613b154ba240eab595b.bindPopup(popup_59a9395cdae740b49f39141262b2d910)
+        ;
+
+        
+    
+    
+            var marker_878cfaa861e34323a9902c232e98f6f1 = L.marker(
+                [37.542270809833205, 127.125283411621],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_ef877897c2304e74a31cd4c45eb568cf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5501147ad85d4f2bb296494abbc03521 = $(`<div id="html_5501147ad85d4f2bb296494abbc03521" style="width: 100.0%; height: 100.0%;">백산의료재단친구병원-서울특별시 강동구 올림픽로 684</div>`)[0];
+            popup_ef877897c2304e74a31cd4c45eb568cf.setContent(html_5501147ad85d4f2bb296494abbc03521);
+        
+
+        marker_878cfaa861e34323a9902c232e98f6f1.bindPopup(popup_ef877897c2304e74a31cd4c45eb568cf)
+        ;
+
+        
+    
+    
+            var marker_4bb6fd73eba34a7686f9cc434395f8a6 = L.marker(
+                [37.528460878258706, 127.147914226576],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_4bdf2263016747cd935641e27aab609b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6f27eae313e34016bf58489d16aec39b = $(`<div id="html_6f27eae313e34016bf58489d16aec39b" style="width: 100.0%; height: 100.0%;">서울보훈병원-서울특별시 강동구 진황도로61길 53</div>`)[0];
+            popup_4bdf2263016747cd935641e27aab609b.setContent(html_6f27eae313e34016bf58489d16aec39b);
+        
+
+        marker_4bb6fd73eba34a7686f9cc434395f8a6.bindPopup(popup_4bdf2263016747cd935641e27aab609b)
+        ;
+
+        
+    
+    
+            var marker_f739dcce464f4380aa1f2f7238feef2c = L.marker(
+                [37.5000141135255, 127.03648711873699],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_6aad33e61b22453da97432d52c6422e8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4560a6a5264c4522b963b543e2d1c5bb = $(`<div id="html_4560a6a5264c4522b963b543e2d1c5bb" style="width: 100.0%; height: 100.0%;">서울대학교병원-서울특별시 강남구 테헤란로 152</div>`)[0];
+            popup_6aad33e61b22453da97432d52c6422e8.setContent(html_4560a6a5264c4522b963b543e2d1c5bb);
+        
+
+        marker_f739dcce464f4380aa1f2f7238feef2c.bindPopup(popup_6aad33e61b22453da97432d52c6422e8)
+        ;
+
+        
+    
+    
+            var marker_00c7059999844b7993b684f593fecbca = L.marker(
+                [37.561708789577104, 126.999619848188],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_5f755d244ce64fe18fb27e69162d5d2e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a2c898b833c84b0aadd266a22a7c69fb = $(`<div id="html_a2c898b833c84b0aadd266a22a7c69fb" style="width: 100.0%; height: 100.0%;">제일병원-서울특별시 중구 서애로1길 17</div>`)[0];
+            popup_5f755d244ce64fe18fb27e69162d5d2e.setContent(html_a2c898b833c84b0aadd266a22a7c69fb);
+        
+
+        marker_00c7059999844b7993b684f593fecbca.bindPopup(popup_5f755d244ce64fe18fb27e69162d5d2e)
+        ;
+
+        
+    
+    
+            var marker_93cb5b1df37d438f9c835d7f63208dfd = L.marker(
+                [37.481907504751504, 126.881567999979],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_3e98a795fd794686970967c1406b7c8a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e1ce723a677d41d0bd94ced874604222 = $(`<div id="html_e1ce723a677d41d0bd94ced874604222" style="width: 100.0%; height: 100.0%;">이랜드클리닉-서울특별시 금천구 가산디지털1로 186</div>`)[0];
+            popup_3e98a795fd794686970967c1406b7c8a.setContent(html_e1ce723a677d41d0bd94ced874604222);
+        
+
+        marker_93cb5b1df37d438f9c835d7f63208dfd.bindPopup(popup_3e98a795fd794686970967c1406b7c8a)
+        ;
+
+        
+    
+    
+            var marker_6ab71a51da02467585aa86bdd5e4c93b = L.marker(
+                [37.5598884579046, 126.964069882556],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_36998acb13ce4b808d652030c53af9a3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_344e5702c159442fa7e6b99132d97ed8 = $(`<div id="html_344e5702c159442fa7e6b99132d97ed8" style="width: 100.0%; height: 100.0%;">사랑나눔의료재단-서울특별시 서대문구 서소문로 21</div>`)[0];
+            popup_36998acb13ce4b808d652030c53af9a3.setContent(html_344e5702c159442fa7e6b99132d97ed8);
+        
+
+        marker_6ab71a51da02467585aa86bdd5e4c93b.bindPopup(popup_36998acb13ce4b808d652030c53af9a3)
+        ;
+
+        
+    
+    
+            var marker_97b461abd1464bdc93e54e2050890504 = L.marker(
+                [37.5884849860916, 127.031701809695],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_62798da233274d6084c58289128ad169 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4537e63f3f994a31b3a7e9050fd17b25 = $(`<div id="html_4537e63f3f994a31b3a7e9050fd17b25" style="width: 100.0%; height: 100.0%;">우울증센터-서울특별시 성북구 안암로 145</div>`)[0];
+            popup_62798da233274d6084c58289128ad169.setContent(html_4537e63f3f994a31b3a7e9050fd17b25);
+        
+
+        marker_97b461abd1464bdc93e54e2050890504.bindPopup(popup_62798da233274d6084c58289128ad169)
+        ;
+
+        
+    
+    
+            var marker_27610e53a1664d3bb15c76ad6c6f53c2 = L.marker(
+                [37.5234259336424, 126.91030567607599],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_7e18dda6ed13493b94c8b8cb573b557f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4a22e30d1fb845b0bb757e31ac032453 = $(`<div id="html_4a22e30d1fb845b0bb757e31ac032453" style="width: 100.0%; height: 100.0%;">성심의료재단-서울특별시 영등포구 버드나루로 55</div>`)[0];
+            popup_7e18dda6ed13493b94c8b8cb573b557f.setContent(html_4a22e30d1fb845b0bb757e31ac032453);
+        
+
+        marker_27610e53a1664d3bb15c76ad6c6f53c2.bindPopup(popup_7e18dda6ed13493b94c8b8cb573b557f)
+        ;
+
+        
+    
+    
+            var marker_16cad81e153f484398f528e0b47ea140 = L.marker(
+                [37.4967193539591, 126.85695376699499],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_3306299ec78f45b69df0e6757065f3fe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_62841af03bbf4076a2f26e273bf4f6ab = $(`<div id="html_62841af03bbf4076a2f26e273bf4f6ab" style="width: 100.0%; height: 100.0%;">다나의료재단-서울특별시 구로구 개봉로 126</div>`)[0];
+            popup_3306299ec78f45b69df0e6757065f3fe.setContent(html_62841af03bbf4076a2f26e273bf4f6ab);
+        
+
+        marker_16cad81e153f484398f528e0b47ea140.bindPopup(popup_3306299ec78f45b69df0e6757065f3fe)
+        ;
+
+        
+    
+    
+            var marker_2b821fd37fe44498951b7d84d6109f5d = L.marker(
+                [37.5252476485773, 127.109315275715],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_37c5416289954dea8ce2414382ef9c1f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_303e79879c734d8f8076576773ab35a2 = $(`<div id="html_303e79879c734d8f8076576773ab35a2" style="width: 100.0%; height: 100.0%;">서울아산병원신관-서울특별시 송파구 올림픽로43길 88</div>`)[0];
+            popup_37c5416289954dea8ce2414382ef9c1f.setContent(html_303e79879c734d8f8076576773ab35a2);
+        
+
+        marker_2b821fd37fe44498951b7d84d6109f5d.bindPopup(popup_37c5416289954dea8ce2414382ef9c1f)
+        ;
+
+        
+    
+    
+            var marker_90522fc7669941dd92bdda4d4e436c74 = L.marker(
+                [37.6288082757637, 127.082669636243],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_ac2247b892174aff8f7bf6f8a9cad78c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a4a177f6ccb04d36a8a43593e3c1d5cc = $(`<div id="html_a4a177f6ccb04d36a8a43593e3c1d5cc" style="width: 100.0%; height: 100.0%;">원자력병원장례식장-서울특별시 노원구 노원로 75</div>`)[0];
+            popup_ac2247b892174aff8f7bf6f8a9cad78c.setContent(html_a4a177f6ccb04d36a8a43593e3c1d5cc);
+        
+
+        marker_90522fc7669941dd92bdda4d4e436c74.bindPopup(popup_ac2247b892174aff8f7bf6f8a9cad78c)
+        ;
+
+        
+    
+    
+            var marker_f826df9a2de6488f94224bf6f6648565 = L.marker(
+                [37.491208532547496, 126.8846634435],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_7c0b1461efcc4e899d0450e55435349b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_af528f00cb6441c6aafa138b2c4ef8c2 = $(`<div id="html_af528f00cb6441c6aafa138b2c4ef8c2" style="width: 100.0%; height: 100.0%;">고려대학교구로병원-서울특별시 구로구 구로동로 148</div>`)[0];
+            popup_7c0b1461efcc4e899d0450e55435349b.setContent(html_af528f00cb6441c6aafa138b2c4ef8c2);
+        
+
+        marker_f826df9a2de6488f94224bf6f6648565.bindPopup(popup_7c0b1461efcc4e899d0450e55435349b)
+        ;
+
+        
+    
+    
+            var marker_67d92037869340409873cc172c4a1698 = L.marker(
+                [37.5234259336424, 126.91030567607599],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_1b7efdff19944850b3780e8828c0c546 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b574cc49a3504214ab924d8b1c9a5fbf = $(`<div id="html_b574cc49a3504214ab924d8b1c9a5fbf" style="width: 100.0%; height: 100.0%;">학교법인일송학원-서울특별시 영등포구 버드나루로 55</div>`)[0];
+            popup_1b7efdff19944850b3780e8828c0c546.setContent(html_b574cc49a3504214ab924d8b1c9a5fbf);
+        
+
+        marker_67d92037869340409873cc172c4a1698.bindPopup(popup_1b7efdff19944850b3780e8828c0c546)
+        ;
+
+        
+    
+    
+            var marker_2040f44494d845dc898737f87f4ed798 = L.marker(
+                [37.490334340869495, 127.08957883163201],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_306f51de3f294759aaede183592e2260 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8970739eb09e4b8d9d931aeb14de90c4 = $(`<div id="html_8970739eb09e4b8d9d931aeb14de90c4" style="width: 100.0%; height: 100.0%;">삼성의료원장례식장-서울특별시 강남구 일원로 81</div>`)[0];
+            popup_306f51de3f294759aaede183592e2260.setContent(html_8970739eb09e4b8d9d931aeb14de90c4);
+        
+
+        marker_2040f44494d845dc898737f87f4ed798.bindPopup(popup_306f51de3f294759aaede183592e2260)
+        ;
+
+        
+    
+    
+            var marker_946b00db32c247daa33eb3ce57ad2738 = L.marker(
+                [37.4544208148109, 126.90123704027701],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_fb998f2e27ba4593bd2a2a74a42db6ea = L.popup({"maxWidth": "100%"});
+
+        
+            var html_89b07d324a36438bab6b0121d30c8c2e = $(`<div id="html_89b07d324a36438bab6b0121d30c8c2e" style="width: 100.0%; height: 100.0%;">희명스포츠의학센터인공신장실-서울특별시 금천구 시흥대로 230</div>`)[0];
+            popup_fb998f2e27ba4593bd2a2a74a42db6ea.setContent(html_89b07d324a36438bab6b0121d30c8c2e);
+        
+
+        marker_946b00db32c247daa33eb3ce57ad2738.bindPopup(popup_fb998f2e27ba4593bd2a2a74a42db6ea)
+        ;
+
+        
+    
+    
+            var marker_fcee672a9dc64157a6c82b676b93c63b = L.marker(
+                [37.4927951351961, 127.046293864724],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_c4497df388f748e28b464138de487080 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a746b11e698540bb9f600d2832597682 = $(`<div id="html_a746b11e698540bb9f600d2832597682" style="width: 100.0%; height: 100.0%;">연세대학교의과대학강남세브란스-서울특별시 강남구 언주로 211</div>`)[0];
+            popup_c4497df388f748e28b464138de487080.setContent(html_a746b11e698540bb9f600d2832597682);
+        
+
+        marker_fcee672a9dc64157a6c82b676b93c63b.bindPopup(popup_c4497df388f748e28b464138de487080)
+        ;
+
+        
+    
+    
+            var marker_ccc38807c5744f4aa8f660daf838c6b9 = L.marker(
+                [37.5653138819736, 127.086437154639],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_50bc5da807f54eb4aa7a428e4a3e0f3a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_46dd3e2071474bcd963e20283942bac2 = $(`<div id="html_46dd3e2071474bcd963e20283942bac2" style="width: 100.0%; height: 100.0%;">국립정신병원-서울특별시 광진구 능동로 398</div>`)[0];
+            popup_50bc5da807f54eb4aa7a428e4a3e0f3a.setContent(html_46dd3e2071474bcd963e20283942bac2);
+        
+
+        marker_ccc38807c5744f4aa8f660daf838c6b9.bindPopup(popup_50bc5da807f54eb4aa7a428e4a3e0f3a)
+        ;
+
+        
+    
+    
+            var marker_238e3ae61be24e9dad739f2e99372c73 = L.marker(
+                [37.5041585815151, 127.05203064685499],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_4e2cdd217aae4577a4946a55b4a7659b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0a1a0d32a7c24658ac20de2a6880a0ba = $(`<div id="html_0a1a0d32a7c24658ac20de2a6880a0ba" style="width: 100.0%; height: 100.0%;">코아클리닉-서울특별시 강남구 선릉로86길 31</div>`)[0];
+            popup_4e2cdd217aae4577a4946a55b4a7659b.setContent(html_0a1a0d32a7c24658ac20de2a6880a0ba);
+        
+
+        marker_238e3ae61be24e9dad739f2e99372c73.bindPopup(popup_4e2cdd217aae4577a4946a55b4a7659b)
+        ;
+
+        
+    
+    
+            var marker_ea28dccd81944feeae56828101c267e3 = L.marker(
+                [37.6466791728505, 127.02904307821301],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_ccbffd5fe3014d91a8a3f85d6b2e3b19 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d80f1eb94a364c0dbd787ae3f6d9f4ca = $(`<div id="html_d80f1eb94a364c0dbd787ae3f6d9f4ca" style="width: 100.0%; height: 100.0%;">한국전력공사부속한일병원-서울특별시 도봉구 우이천로 308</div>`)[0];
+            popup_ccbffd5fe3014d91a8a3f85d6b2e3b19.setContent(html_d80f1eb94a364c0dbd787ae3f6d9f4ca);
+        
+
+        marker_ea28dccd81944feeae56828101c267e3.bindPopup(popup_ccbffd5fe3014d91a8a3f85d6b2e3b19)
+        ;
+
+        
+    
+    
+            var marker_00fa8685b8494be088e4d5860ef7df95 = L.marker(
+                [37.552351350337, 126.934217029717],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_a220ab416b07496e811f7644024d8c05 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_68591d2f8fc34babab054b637a75021f = $(`<div id="html_68591d2f8fc34babab054b637a75021f" style="width: 100.0%; height: 100.0%;">신촌연세병원-서울특별시 마포구 서강로14길 14</div>`)[0];
+            popup_a220ab416b07496e811f7644024d8c05.setContent(html_68591d2f8fc34babab054b637a75021f);
+        
+
+        marker_00fa8685b8494be088e4d5860ef7df95.bindPopup(popup_a220ab416b07496e811f7644024d8c05)
+        ;
+
+        
+    
+    
+            var marker_f87cec4a68c74e82a05ab84b0a2423ed = L.marker(
+                [37.4927951351961, 127.046293864724],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_4acc7518633841898394c6d2342a92c7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0a978abd6ae04ac39608e10646a3f040 = $(`<div id="html_0a978abd6ae04ac39608e10646a3f040" style="width: 100.0%; height: 100.0%;">영동세브란스병원-서울특별시 강남구 언주로 211</div>`)[0];
+            popup_4acc7518633841898394c6d2342a92c7.setContent(html_0a978abd6ae04ac39608e10646a3f040);
+        
+
+        marker_f87cec4a68c74e82a05ab84b0a2423ed.bindPopup(popup_4acc7518633841898394c6d2342a92c7)
+        ;
+
+        
+    
+    
+            var marker_4b53fbef5029474982c0086f2f533deb = L.marker(
+                [37.5623763649704, 126.975546803857],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_aa712c62c4be49348f765dfc13c14a3f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_608ae62daae54d90a8dee478d22dc9f7 = $(`<div id="html_608ae62daae54d90a8dee478d22dc9f7" style="width: 100.0%; height: 100.0%;">삼성의료재단강북삼성태-서울특별시 중구 세종대로 67</div>`)[0];
+            popup_aa712c62c4be49348f765dfc13c14a3f.setContent(html_608ae62daae54d90a8dee478d22dc9f7);
+        
+
+        marker_4b53fbef5029474982c0086f2f533deb.bindPopup(popup_aa712c62c4be49348f765dfc13c14a3f)
+        ;
+
+        
+    
+    
+            var marker_01a8f90de84947aeb2f704df5d1f7b4e = L.marker(
+                [37.492999919576505, 126.92431799318399],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_e410564b495f4e339b6ff2d2d0a50a53 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3a8392097e364f6ba59e2657f89d9814 = $(`<div id="html_3a8392097e364f6ba59e2657f89d9814" style="width: 100.0%; height: 100.0%;">서울시립보라매병원-서울특별시 동작구 보라매로5길 20</div>`)[0];
+            popup_e410564b495f4e339b6ff2d2d0a50a53.setContent(html_3a8392097e364f6ba59e2657f89d9814);
+        
+
+        marker_01a8f90de84947aeb2f704df5d1f7b4e.bindPopup(popup_e410564b495f4e339b6ff2d2d0a50a53)
+        ;
+
+        
+    
+    
+            var marker_8667dfd83916498f8ccc88f568ce1a0d = L.marker(
+                [37.58044782245471, 126.997184076959],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_7d715daf31fe422091b7cf90f9ceeaa4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7903c3d632f94eceaf304628950d1162 = $(`<div id="html_7903c3d632f94eceaf304628950d1162" style="width: 100.0%; height: 100.0%;">서울대학교병원비상계획외래-서울특별시 종로구 대학로 101</div>`)[0];
+            popup_7d715daf31fe422091b7cf90f9ceeaa4.setContent(html_7903c3d632f94eceaf304628950d1162);
+        
+
+        marker_8667dfd83916498f8ccc88f568ce1a0d.bindPopup(popup_7d715daf31fe422091b7cf90f9ceeaa4)
+        ;
+
+        
+    
+    
+            var marker_49fb20c9726b4210992b0c83e887eef0 = L.marker(
+                [37.5023822369311, 127.00584071155399],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_eebb12978c684fceb3641439c63f990b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9418ceffdb6a4a3a81438dc6df58afa9 = $(`<div id="html_9418ceffdb6a4a3a81438dc6df58afa9" style="width: 100.0%; height: 100.0%;">평화드림서울성모병원의료-서울특별시 서초구 반포대로 222</div>`)[0];
+            popup_eebb12978c684fceb3641439c63f990b.setContent(html_9418ceffdb6a4a3a81438dc6df58afa9);
+        
+
+        marker_49fb20c9726b4210992b0c83e887eef0.bindPopup(popup_eebb12978c684fceb3641439c63f990b)
+        ;
+
+        
+    
+    
+            var marker_7bc98161a1e84a4883780eb94b266a7d = L.marker(
+                [37.5287978094127, 126.863637341439],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_4d7c29262c2d4c17b0d6bb4334e8eee2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3a2d05f89dc14f849f230232e45b836d = $(`<div id="html_3a2d05f89dc14f849f230232e45b836d" style="width: 100.0%; height: 100.0%;">홍익병원-서울특별시 양천구 목동로 227</div>`)[0];
+            popup_4d7c29262c2d4c17b0d6bb4334e8eee2.setContent(html_3a2d05f89dc14f849f230232e45b836d);
+        
+
+        marker_7bc98161a1e84a4883780eb94b266a7d.bindPopup(popup_4d7c29262c2d4c17b0d6bb4334e8eee2)
+        ;
+
+        
+    
+    
+            var marker_db0c70d433aa4df4a63b23e003fa2379 = L.marker(
+                [37.5598884579046, 126.964069882556],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_4d8e9285e7514317bc1b9513536f25f9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0291e4b3bd464399a71cf1ea308a40dd = $(`<div id="html_0291e4b3bd464399a71cf1ea308a40dd" style="width: 100.0%; height: 100.0%;">사랑나눔의료재단서-서울특별시 서대문구 서소문로 21</div>`)[0];
+            popup_4d8e9285e7514317bc1b9513536f25f9.setContent(html_0291e4b3bd464399a71cf1ea308a40dd);
+        
+
+        marker_db0c70d433aa4df4a63b23e003fa2379.bindPopup(popup_4d8e9285e7514317bc1b9513536f25f9)
+        ;
+
+        
+    
+    
+            var marker_ddfbfea88ba64ae58e1880bce0484346 = L.marker(
+                [37.584867824713704, 127.031216512377],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_d605d23114744f8eb02d13678e21dd85 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_316c108f40a0445aa3dcb370b0380cd3 = $(`<div id="html_316c108f40a0445aa3dcb370b0380cd3" style="width: 100.0%; height: 100.0%;">우신향병원-서울특별시 성북구 안암로 99</div>`)[0];
+            popup_d605d23114744f8eb02d13678e21dd85.setContent(html_316c108f40a0445aa3dcb370b0380cd3);
+        
+
+        marker_ddfbfea88ba64ae58e1880bce0484346.bindPopup(popup_d605d23114744f8eb02d13678e21dd85)
+        ;
+
+        
+    
+    
+            var marker_0c223a3ce191467baa382254b6c6e435 = L.marker(
+                [37.6008223690353, 127.108596273171],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_0ee88be240bf4bcaa0e4077355f20edd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a108aab3e6834b9cb9076fa0e1e08c04 = $(`<div id="html_a108aab3e6834b9cb9076fa0e1e08c04" style="width: 100.0%; height: 100.0%;">동부제일병원-서울특별시 중랑구 양원역로 2</div>`)[0];
+            popup_0ee88be240bf4bcaa0e4077355f20edd.setContent(html_a108aab3e6834b9cb9076fa0e1e08c04);
+        
+
+        marker_0c223a3ce191467baa382254b6c6e435.bindPopup(popup_0ee88be240bf4bcaa0e4077355f20edd)
+        ;
+
+        
+    
+    
+            var marker_1d6a8bebc8b0440aa1dbfd62270bae3d = L.marker(
+                [37.51767433730021, 126.982708013371],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_f0f8bf829c074404846b94469ccf0cb0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_22b2f05eccc9473a887be62e062772c9 = $(`<div id="html_22b2f05eccc9473a887be62e062772c9" style="width: 100.0%; height: 100.0%;">아산재단금강병원-서울특별시 용산구 이촌로 318</div>`)[0];
+            popup_f0f8bf829c074404846b94469ccf0cb0.setContent(html_22b2f05eccc9473a887be62e062772c9);
+        
+
+        marker_1d6a8bebc8b0440aa1dbfd62270bae3d.bindPopup(popup_f0f8bf829c074404846b94469ccf0cb0)
+        ;
+
+        
+    
+    
+            var marker_734faf0c6fc34806afde77302f9ec06c = L.marker(
+                [37.519668760289505, 126.901570561173],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_dd121a6f60534d2ab269c1006a54f23b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_55af9ec98a034bbcb90d2248ddfb00fc = $(`<div id="html_55af9ec98a034bbcb90d2248ddfb00fc" style="width: 100.0%; height: 100.0%;">명곡안연구소-서울특별시 영등포구 영신로 136</div>`)[0];
+            popup_dd121a6f60534d2ab269c1006a54f23b.setContent(html_55af9ec98a034bbcb90d2248ddfb00fc);
+        
+
+        marker_734faf0c6fc34806afde77302f9ec06c.bindPopup(popup_dd121a6f60534d2ab269c1006a54f23b)
+        ;
+
+        
+    
+    
+            var marker_172e4be7ff1449e590785ef6470506ca = L.marker(
+                [37.5252476485773, 127.109315275715],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_91d66a632f6f46e3a519398f3f431814 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f7ea93408ddb4285b4b8b6a46edd8fc7 = $(`<div id="html_f7ea93408ddb4285b4b8b6a46edd8fc7" style="width: 100.0%; height: 100.0%;">아산재단서울중앙병원-서울특별시 송파구 올림픽로43길 88</div>`)[0];
+            popup_91d66a632f6f46e3a519398f3f431814.setContent(html_f7ea93408ddb4285b4b8b6a46edd8fc7);
+        
+
+        marker_172e4be7ff1449e590785ef6470506ca.bindPopup(popup_91d66a632f6f46e3a519398f3f431814)
+        ;
+
+        
+    
+    
+            var marker_5708c78d0ca847c4a9734265be006d32 = L.marker(
+                [37.5372508450536, 126.827821479527],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_230fe0b2bb4e45a5b8ce474ee80e1f27 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_11e075392bdd48208079da18f9503316 = $(`<div id="html_11e075392bdd48208079da18f9503316" style="width: 100.0%; height: 100.0%;">메디힐특수여객-서울특별시 양천구 남부순환로 331</div>`)[0];
+            popup_230fe0b2bb4e45a5b8ce474ee80e1f27.setContent(html_11e075392bdd48208079da18f9503316);
+        
+
+        marker_5708c78d0ca847c4a9734265be006d32.bindPopup(popup_230fe0b2bb4e45a5b8ce474ee80e1f27)
+        ;
+
+        
+    
+    
+            var marker_0fed6dc5076f41b784d495fa748aeebc = L.marker(
+                [37.490334340869495, 127.08957883163201],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_1ce9fc46329149f8b0a873b0721e52ff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_35a69016e209487bbb61927d91406d8f = $(`<div id="html_35a69016e209487bbb61927d91406d8f" style="width: 100.0%; height: 100.0%;">삼성생명공익재단삼성서-서울특별시 강남구 일원로 81</div>`)[0];
+            popup_1ce9fc46329149f8b0a873b0721e52ff.setContent(html_35a69016e209487bbb61927d91406d8f);
+        
+
+        marker_0fed6dc5076f41b784d495fa748aeebc.bindPopup(popup_1ce9fc46329149f8b0a873b0721e52ff)
+        ;
+
+        
+    
+    
+            var marker_ed7798d726db43989e447ffd3477ad1a = L.marker(
+                [37.5068404935954, 127.034940318209],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_4680a8bba5274a0d8563fb07ffebaf41 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_deaac24651804adcadc620f14fa83703 = $(`<div id="html_deaac24651804adcadc620f14fa83703" style="width: 100.0%; height: 100.0%;">성광의료재단차병원-서울특별시 강남구 논현로 566</div>`)[0];
+            popup_4680a8bba5274a0d8563fb07ffebaf41.setContent(html_deaac24651804adcadc620f14fa83703);
+        
+
+        marker_ed7798d726db43989e447ffd3477ad1a.bindPopup(popup_4680a8bba5274a0d8563fb07ffebaf41)
+        ;
+
+        
+    
+    
+            var marker_081d92eb70ef4cbb998d6adf640e7e4f = L.marker(
+                [37.5167119999205, 127.105389605001],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_c06a6684106c422e80b850f4c0e484c9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f1ac5a57f2d3495c9cf827475523860d = $(`<div id="html_f1ac5a57f2d3495c9cf827475523860d" style="width: 100.0%; height: 100.0%;">한국건강관리협회서울특-서울특별시 송파구 오금로 58</div>`)[0];
+            popup_c06a6684106c422e80b850f4c0e484c9.setContent(html_f1ac5a57f2d3495c9cf827475523860d);
+        
+
+        marker_081d92eb70ef4cbb998d6adf640e7e4f.bindPopup(popup_c06a6684106c422e80b850f4c0e484c9)
+        ;
+
+        
+    
+    
+            var marker_c85cd61b482c47658a1ac0ce8f0bc6ec = L.marker(
+                [37.5122416439178, 127.008209768382],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_c968f9f7761d4a7aa7eb42ccd09b02d9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_08ada6d920bd4c618c4c3694bb589815 = $(`<div id="html_08ada6d920bd4c618c4c3694bb589815" style="width: 100.0%; height: 100.0%;">정해복지부설한신메디피아-서울특별시 서초구 잠원로 88</div>`)[0];
+            popup_c968f9f7761d4a7aa7eb42ccd09b02d9.setContent(html_08ada6d920bd4c618c4c3694bb589815);
+        
+
+        marker_c85cd61b482c47658a1ac0ce8f0bc6ec.bindPopup(popup_c968f9f7761d4a7aa7eb42ccd09b02d9)
+        ;
+
+        
+    
+    
+            var marker_02e9612f114d4f6e830b948ac3f70a12 = L.marker(
+                [37.4853552935161, 127.037760918725],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_2cfdb613e4ba42eb91070d24362907aa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_98a0375f95e54c7ca9b2c4ed8498acaa = $(`<div id="html_98a0375f95e54c7ca9b2c4ed8498acaa" style="width: 100.0%; height: 100.0%;">성베드로병원-서울특별시 강남구 남부순환로 2633</div>`)[0];
+            popup_2cfdb613e4ba42eb91070d24362907aa.setContent(html_98a0375f95e54c7ca9b2c4ed8498acaa);
+        
+
+        marker_02e9612f114d4f6e830b948ac3f70a12.bindPopup(popup_2cfdb613e4ba42eb91070d24362907aa)
+        ;
+
+        
+    
+    
+            var marker_220c276a99d146f6966d75498bcd03db = L.marker(
+                [37.512039105313, 126.92234810541599],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_c149f83486e04088b85cedc942bcb74d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_07f4681f765447bda2431502d783d62f = $(`<div id="html_07f4681f765447bda2431502d783d62f" style="width: 100.0%; height: 100.0%;">성애의료재단-서울특별시 영등포구 여의대방로53길 22</div>`)[0];
+            popup_c149f83486e04088b85cedc942bcb74d.setContent(html_07f4681f765447bda2431502d783d62f);
+        
+
+        marker_220c276a99d146f6966d75498bcd03db.bindPopup(popup_c149f83486e04088b85cedc942bcb74d)
+        ;
+
+        
+    
+    
+            var marker_dde55742cb474b05a72a45bc702ca372 = L.marker(
+                [37.5086261318378, 127.05857971764799],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_44794ae6946d4dadaddab80811a574c3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3fe61fd8ead7460389639c7075d1630e = $(`<div id="html_3fe61fd8ead7460389639c7075d1630e" style="width: 100.0%; height: 100.0%;">Y&T성모마취과-서울특별시 강남구 테헤란로87길 13</div>`)[0];
+            popup_44794ae6946d4dadaddab80811a574c3.setContent(html_3fe61fd8ead7460389639c7075d1630e);
+        
+
+        marker_dde55742cb474b05a72a45bc702ca372.bindPopup(popup_44794ae6946d4dadaddab80811a574c3)
+        ;
+
+        
+    
+    
+            var marker_dd9ffa4bbfab457481993712c0037ad3 = L.marker(
+                [37.5594460483099, 126.968082757311],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_7760f511a252445ab89acc7a2e0f1785 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_176f253a56da4e598286111705c923af = $(`<div id="html_176f253a56da4e598286111705c923af" style="width: 100.0%; height: 100.0%;">영남의료재단-서울특별시 중구 청파로 449-1</div>`)[0];
+            popup_7760f511a252445ab89acc7a2e0f1785.setContent(html_176f253a56da4e598286111705c923af);
+        
+
+        marker_dd9ffa4bbfab457481993712c0037ad3.bindPopup(popup_7760f511a252445ab89acc7a2e0f1785)
+        ;
+
+        
+    
+    
+            var marker_406056b28cdc40b395056e20e6ccde34 = L.marker(
+                [37.5648230830575, 126.98865503941299],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_6ccc1df97b174d53b8fc7cccd4961dd6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fe24085e22af471d84744a2fbdc0c838 = $(`<div id="html_fe24085e22af471d84744a2fbdc0c838" style="width: 100.0%; height: 100.0%;">인제대학교서울백병원-서울특별시 중구 마른내로 9</div>`)[0];
+            popup_6ccc1df97b174d53b8fc7cccd4961dd6.setContent(html_fe24085e22af471d84744a2fbdc0c838);
+        
+
+        marker_406056b28cdc40b395056e20e6ccde34.bindPopup(popup_6ccc1df97b174d53b8fc7cccd4961dd6)
+        ;
+
+        
+    
+    
+            var marker_57dcd0526c7a40f49602dd8af6da73c3 = L.marker(
+                [37.5278109120341, 127.127997905164],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_e5cc6b2372de4bd69dc058276ce74ebb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7ead77fda3b64279b4cd56291e31dce5 = $(`<div id="html_7ead77fda3b64279b4cd56291e31dce5" style="width: 100.0%; height: 100.0%;">한국필의료재단-서울특별시 강동구 성내로 71</div>`)[0];
+            popup_e5cc6b2372de4bd69dc058276ce74ebb.setContent(html_7ead77fda3b64279b4cd56291e31dce5);
+        
+
+        marker_57dcd0526c7a40f49602dd8af6da73c3.bindPopup(popup_e5cc6b2372de4bd69dc058276ce74ebb)
+        ;
+
+        
+    
+    
+            var marker_3867adf2445148a5af5bbc48cbb8ba6c = L.marker(
+                [37.579246142111, 127.04347135868099],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_a41fac5072294d75b3c4c1669a40fc87 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b48971b3be4446e0a8a02a6d2dceb618 = $(`<div id="html_b48971b3be4446e0a8a02a6d2dceb618" style="width: 100.0%; height: 100.0%;">가톨릭대학교성바오로병원장례식장-서울특별시 동대문구 왕산로 180</div>`)[0];
+            popup_a41fac5072294d75b3c4c1669a40fc87.setContent(html_b48971b3be4446e0a8a02a6d2dceb618);
+        
+
+        marker_3867adf2445148a5af5bbc48cbb8ba6c.bindPopup(popup_a41fac5072294d75b3c4c1669a40fc87)
+        ;
+
+        
+    
+    
+            var marker_b00112279aa2438ab25f67dd6e8ec030 = L.marker(
+                [37.479617581958706, 126.956269598806],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_6f922588e0bc437fb525ff206b5659b6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6c345812d15f4b57ad92904462c0e6b0 = $(`<div id="html_6c345812d15f4b57ad92904462c0e6b0" style="width: 100.0%; height: 100.0%;">사랑의병원-서울특별시 관악구 남부순환로 1860</div>`)[0];
+            popup_6f922588e0bc437fb525ff206b5659b6.setContent(html_6c345812d15f4b57ad92904462c0e6b0);
+        
+
+        marker_b00112279aa2438ab25f67dd6e8ec030.bindPopup(popup_6f922588e0bc437fb525ff206b5659b6)
+        ;
+
+        
+    
+    
+            var marker_6b718b830083492681b03ddc2701ba83 = L.marker(
+                [37.5522155545206, 126.835871375905],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_546e0e13eab64dbf96f999e723e6de7e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e16ba082f7014051bc606dec66222c44 = $(`<div id="html_e16ba082f7014051bc606dec66222c44" style="width: 100.0%; height: 100.0%;">성삼의료재단미즈메디병원-서울특별시 강서구 강서로 295</div>`)[0];
+            popup_546e0e13eab64dbf96f999e723e6de7e.setContent(html_e16ba082f7014051bc606dec66222c44);
+        
+
+        marker_6b718b830083492681b03ddc2701ba83.bindPopup(popup_546e0e13eab64dbf96f999e723e6de7e)
+        ;
+
+        
+    
+    
+            var marker_a503e408abbc4f248430388646ece19b = L.marker(
+                [37.5188069808785, 126.903856966109],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_214bc9313ff84a37a8563e256202a07a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dbdfb21859ff4949baf424a2afe8ba7b = $(`<div id="html_dbdfb21859ff4949baf424a2afe8ba7b" style="width: 100.0%; height: 100.0%;">씨엠충무병원-서울특별시 영등포구 영등포로36길 13</div>`)[0];
+            popup_214bc9313ff84a37a8563e256202a07a.setContent(html_dbdfb21859ff4949baf424a2afe8ba7b);
+        
+
+        marker_a503e408abbc4f248430388646ece19b.bindPopup(popup_214bc9313ff84a37a8563e256202a07a)
+        ;
+
+        
+    
+    
+            var marker_561aef389679425aa764e2ca46517c9c = L.marker(
+                [37.5835570580505, 127.08604442985501],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_1bc36339a2c0455e859ebaf275123ccd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_44872c0e6aed46be805aae0f5443919a = $(`<div id="html_44872c0e6aed46be805aae0f5443919a" style="width: 100.0%; height: 100.0%;">원진재단부설녹색병원-서울특별시 중랑구 사가정로49길 53</div>`)[0];
+            popup_1bc36339a2c0455e859ebaf275123ccd.setContent(html_44872c0e6aed46be805aae0f5443919a);
+        
+
+        marker_561aef389679425aa764e2ca46517c9c.bindPopup(popup_1bc36339a2c0455e859ebaf275123ccd)
+        ;
+
+        
+    
+    
+            var marker_97a695ce0c8e4d159a59d97271b4b43b = L.marker(
+                [37.4884364039536, 127.10296779054501],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_8e21ac472dd74e7c8c8655e5e66c6926 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_861bdc8f97f34ed4bfa25de696a139b1 = $(`<div id="html_861bdc8f97f34ed4bfa25de696a139b1" style="width: 100.0%; height: 100.0%;">강남센트럴병원-서울특별시 강남구 광평로51길 6-9</div>`)[0];
+            popup_8e21ac472dd74e7c8c8655e5e66c6926.setContent(html_861bdc8f97f34ed4bfa25de696a139b1);
+        
+
+        marker_97a695ce0c8e4d159a59d97271b4b43b.bindPopup(popup_8e21ac472dd74e7c8c8655e5e66c6926)
+        ;
+
+        
+    
+    
+            var marker_e03761e54e234f138bfc5aebdc39f0c5 = L.marker(
+                [37.5190874717723, 127.049590630364],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_d5798320cc9c4335a5690403cae0be01 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3dd43d1e2a8b45a687e5e330726af16e = $(`<div id="html_3dd43d1e2a8b45a687e5e330726af16e" style="width: 100.0%; height: 100.0%;">우리들병원-서울특별시 강남구 학동로 445</div>`)[0];
+            popup_d5798320cc9c4335a5690403cae0be01.setContent(html_3dd43d1e2a8b45a687e5e330726af16e);
+        
+
+        marker_e03761e54e234f138bfc5aebdc39f0c5.bindPopup(popup_d5798320cc9c4335a5690403cae0be01)
+        ;
+
+        
+    
+    
+            var marker_9482cfffb1054146a0e6138414d8b35c = L.marker(
+                [37.541224682309704, 127.07204319614999],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_e54985fd83ad4e0088f9d341848edab5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_78ad062213dc47b4968e608088eaaae5 = $(`<div id="html_78ad062213dc47b4968e608088eaaae5" style="width: 100.0%; height: 100.0%;">건국대학교병원-서울특별시 광진구 능동로 120-1</div>`)[0];
+            popup_e54985fd83ad4e0088f9d341848edab5.setContent(html_78ad062213dc47b4968e608088eaaae5);
+        
+
+        marker_9482cfffb1054146a0e6138414d8b35c.bindPopup(popup_e54985fd83ad4e0088f9d341848edab5)
+        ;
+
+        
+    
+    
+            var marker_01e7c101df2e4f8fae76d6fe0610ad38 = L.marker(
+                [37.5667546922405, 126.96718956735],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_f205eed13bc842ca82a31a4d9a0293bd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1b6531efbd364595b36d9e220970e486 = $(`<div id="html_1b6531efbd364595b36d9e220970e486" style="width: 100.0%; height: 100.0%;">서울적십자병원-서울특별시 종로구 새문안로 9</div>`)[0];
+            popup_f205eed13bc842ca82a31a4d9a0293bd.setContent(html_1b6531efbd364595b36d9e220970e486);
+        
+
+        marker_01e7c101df2e4f8fae76d6fe0610ad38.bindPopup(popup_f205eed13bc842ca82a31a4d9a0293bd)
+        ;
+
+        
+    
+    
+            var marker_fe3eef5a2c6d40359993ef585fa23fe0 = L.marker(
+                [37.5231678292, 126.909675904297],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_387c7b30729140ebbee428fc0cd6ac43 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8f93ea1dabd34900add720d322a30f78 = $(`<div id="html_8f93ea1dabd34900add720d322a30f78" style="width: 100.0%; height: 100.0%;">한림대학교부속한강성심병원장례식장-서울특별시 영등포구 버드나루로7길 12</div>`)[0];
+            popup_387c7b30729140ebbee428fc0cd6ac43.setContent(html_8f93ea1dabd34900add720d322a30f78);
+        
+
+        marker_fe3eef5a2c6d40359993ef585fa23fe0.bindPopup(popup_387c7b30729140ebbee428fc0cd6ac43)
+        ;
+
+        
+    
+    
+            var marker_839589a562d34cbfb1cfcd290ea0a8b3 = L.marker(
+                [37.528473265286706, 126.86361963768199],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_3e31f577bac049f3b7cc10b6f18484e0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_636873e2ff0b4fd8b2486a2962241fd3 = $(`<div id="html_636873e2ff0b4fd8b2486a2962241fd3" style="width: 100.0%; height: 100.0%;">홍익병원-서울특별시 양천구 목동로 225</div>`)[0];
+            popup_3e31f577bac049f3b7cc10b6f18484e0.setContent(html_636873e2ff0b4fd8b2486a2962241fd3);
+        
+
+        marker_839589a562d34cbfb1cfcd290ea0a8b3.bindPopup(popup_3e31f577bac049f3b7cc10b6f18484e0)
+        ;
+
+        
+    
+    
+            var marker_29d2d4ad2bed41528881c180ca90c293 = L.marker(
+                [37.5023822369311, 127.00584071155399],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_045f992b26f7474c96a8261077c2341f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8c51eb2d48124d4c9f360297f15bcf60 = $(`<div id="html_8c51eb2d48124d4c9f360297f15bcf60" style="width: 100.0%; height: 100.0%;">서울성모병원응급의료센터-서울특별시 서초구 반포대로 222</div>`)[0];
+            popup_045f992b26f7474c96a8261077c2341f.setContent(html_8c51eb2d48124d4c9f360297f15bcf60);
+        
+
+        marker_29d2d4ad2bed41528881c180ca90c293.bindPopup(popup_045f992b26f7474c96a8261077c2341f)
+        ;
+
+        
+    
+    
+            var marker_76604145f95d4cb8bfca08006d3e779f = L.marker(
+                [37.5636624910965, 126.986757791586],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_41312077e9ed412092437691dc93acac = L.popup({"maxWidth": "100%"});
+
+        
+            var html_adb11898b293446ba29923af55982de5 = $(`<div id="html_adb11898b293446ba29923af55982de5" style="width: 100.0%; height: 100.0%;">가톨릭대학교여의도성모병원-서울특별시 중구 명동길 74</div>`)[0];
+            popup_41312077e9ed412092437691dc93acac.setContent(html_adb11898b293446ba29923af55982de5);
+        
+
+        marker_76604145f95d4cb8bfca08006d3e779f.bindPopup(popup_41312077e9ed412092437691dc93acac)
+        ;
+
+        
+    
+    
+            var marker_c8424569ce1b42b5a6a88a2aa4404792 = L.marker(
+                [37.5188069808785, 126.903856966109],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_7f7d1fc6ccf04d96925e46a78e59c9b4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7b5aab10ce0349d1888363788b5aca42 = $(`<div id="html_7b5aab10ce0349d1888363788b5aca42" style="width: 100.0%; height: 100.0%;">씨엠병원-서울특별시 영등포구 영등포로36길 13</div>`)[0];
+            popup_7f7d1fc6ccf04d96925e46a78e59c9b4.setContent(html_7b5aab10ce0349d1888363788b5aca42);
+        
+
+        marker_c8424569ce1b42b5a6a88a2aa4404792.bindPopup(popup_7f7d1fc6ccf04d96925e46a78e59c9b4)
+        ;
+
+        
+    
+    
+            var marker_1e3c76c0c7e34f848743872c142c508b = L.marker(
+                [37.485604263759605, 127.039566911558],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_c32518e42aeb4d7686a940949f8187a2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ea2a37d78cb548909249b1376773e5e9 = $(`<div id="html_ea2a37d78cb548909249b1376773e5e9" style="width: 100.0%; height: 100.0%;">성베드로병원-서울특별시 강남구 남부순환로 2649</div>`)[0];
+            popup_c32518e42aeb4d7686a940949f8187a2.setContent(html_ea2a37d78cb548909249b1376773e5e9);
+        
+
+        marker_1e3c76c0c7e34f848743872c142c508b.bindPopup(popup_c32518e42aeb4d7686a940949f8187a2)
+        ;
+
+        
+    
+    
+            var marker_97697d705ce94b5d88cf8ca2f3e43fbe = L.marker(
+                [37.5590478066919, 127.088279358833],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_ae0e7a517fac44c98e2633b50a5f72ff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a57c7d184b7d4a3f947e53d0681db0da = $(`<div id="html_a57c7d184b7d4a3f947e53d0681db0da" style="width: 100.0%; height: 100.0%;">대진의료재단-서울특별시 광진구 긴고랑로 119</div>`)[0];
+            popup_ae0e7a517fac44c98e2633b50a5f72ff.setContent(html_a57c7d184b7d4a3f947e53d0681db0da);
+        
+
+        marker_97697d705ce94b5d88cf8ca2f3e43fbe.bindPopup(popup_ae0e7a517fac44c98e2633b50a5f72ff)
+        ;
+
+        
+    
+    
+            var marker_8715144fd7574046821e646c88259c37 = L.marker(
+                [37.529213286364396, 126.86280512854499],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_2f76e9dd7f7f490a8cec93b7f72a8a1e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1c334447a11a4a9d94560c94ff53252f = $(`<div id="html_1c334447a11a4a9d94560c94ff53252f" style="width: 100.0%; height: 100.0%;">홍익병원별관-서울특별시 양천구 국회대로 250</div>`)[0];
+            popup_2f76e9dd7f7f490a8cec93b7f72a8a1e.setContent(html_1c334447a11a4a9d94560c94ff53252f);
+        
+
+        marker_8715144fd7574046821e646c88259c37.bindPopup(popup_2f76e9dd7f7f490a8cec93b7f72a8a1e)
+        ;
+
+        
+    
+    
+            var marker_91274e5de4844bafb5fecda886739d9a = L.marker(
+                [37.4996302661116, 127.035824788941],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_112ab6b7b7114f3ab3add8f7ac34a640 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_db5992df368345f1a1caee59343d9ba4 = $(`<div id="html_db5992df368345f1a1caee59343d9ba4" style="width: 100.0%; height: 100.0%;">SNUH-서울특별시 강남구 테헤란로26길 10</div>`)[0];
+            popup_112ab6b7b7114f3ab3add8f7ac34a640.setContent(html_db5992df368345f1a1caee59343d9ba4);
+        
+
+        marker_91274e5de4844bafb5fecda886739d9a.bindPopup(popup_112ab6b7b7114f3ab3add8f7ac34a640)
+        ;
+
+        
+    
+    
+            var marker_0d1494face3b46f7bcf90a72cbc6c88d = L.marker(
+                [37.5594688006573, 127.041324711886],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_f80945d1ae9a4c9cb152300240382f23 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_629167ae44af4e6c953e7b60616a7e1e = $(`<div id="html_629167ae44af4e6c953e7b60616a7e1e" style="width: 100.0%; height: 100.0%;">한양-서울특별시 성동구 마조로 22-2</div>`)[0];
+            popup_f80945d1ae9a4c9cb152300240382f23.setContent(html_629167ae44af4e6c953e7b60616a7e1e);
+        
+
+        marker_0d1494face3b46f7bcf90a72cbc6c88d.bindPopup(popup_f80945d1ae9a4c9cb152300240382f23)
+        ;
+
+        
+    
+    
+            var marker_b4a7218cc706450684d0a3880b357cc3 = L.marker(
+                [37.542270809833205, 127.125283411621],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_015495de1742442da81773f0fdc90e3c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_05084654938340a18629b13f4bfb8afa = $(`<div id="html_05084654938340a18629b13f4bfb8afa" style="width: 100.0%; height: 100.0%;">백산의료재단친구병원-서울특별시 강동구 올림픽로 684</div>`)[0];
+            popup_015495de1742442da81773f0fdc90e3c.setContent(html_05084654938340a18629b13f4bfb8afa);
+        
+
+        marker_b4a7218cc706450684d0a3880b357cc3.bindPopup(popup_015495de1742442da81773f0fdc90e3c)
+        ;
+
+        
+    
+    
+            var marker_62217e01f7584c81863f4e9eed1faf76 = L.marker(
+                [37.528460878258706, 127.147914226576],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_2c485eff9dce4ff692b6a89839e549cd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_420b15ba86d24510b1428d2e807ac54e = $(`<div id="html_420b15ba86d24510b1428d2e807ac54e" style="width: 100.0%; height: 100.0%;">서울보훈병원-서울특별시 강동구 진황도로61길 53</div>`)[0];
+            popup_2c485eff9dce4ff692b6a89839e549cd.setContent(html_420b15ba86d24510b1428d2e807ac54e);
+        
+
+        marker_62217e01f7584c81863f4e9eed1faf76.bindPopup(popup_2c485eff9dce4ff692b6a89839e549cd)
+        ;
+
+        
+    
+    
+            var marker_556ca4580d7644cf93ee3a7ccb1c2859 = L.marker(
+                [37.5000141135255, 127.03648711873699],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_19a79cd057a241d487aa3b3629d6e061 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b0d25f88c674468b955c29ae9c309d24 = $(`<div id="html_b0d25f88c674468b955c29ae9c309d24" style="width: 100.0%; height: 100.0%;">서울대학교병원-서울특별시 강남구 테헤란로 152</div>`)[0];
+            popup_19a79cd057a241d487aa3b3629d6e061.setContent(html_b0d25f88c674468b955c29ae9c309d24);
+        
+
+        marker_556ca4580d7644cf93ee3a7ccb1c2859.bindPopup(popup_19a79cd057a241d487aa3b3629d6e061)
+        ;
+
+        
+    
+    
+            var marker_fd5401ca9aa74490bc7d695d73030c6f = L.marker(
+                [37.561708789577104, 126.999619848188],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_3ae987ab4b6742fb84dd45f51c8015b4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1f120b2220d14536be331fed03701ba4 = $(`<div id="html_1f120b2220d14536be331fed03701ba4" style="width: 100.0%; height: 100.0%;">제일병원-서울특별시 중구 서애로1길 17</div>`)[0];
+            popup_3ae987ab4b6742fb84dd45f51c8015b4.setContent(html_1f120b2220d14536be331fed03701ba4);
+        
+
+        marker_fd5401ca9aa74490bc7d695d73030c6f.bindPopup(popup_3ae987ab4b6742fb84dd45f51c8015b4)
+        ;
+
+        
+    
+    
+            var marker_1770aeaa4e2f4d95bcb1d718509eb9a7 = L.marker(
+                [37.481907504751504, 126.881567999979],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_e7ba7651734a4585a82fb857d8541838 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ef6c901b254f4ee8998259551dcc0b3a = $(`<div id="html_ef6c901b254f4ee8998259551dcc0b3a" style="width: 100.0%; height: 100.0%;">이랜드클리닉-서울특별시 금천구 가산디지털1로 186</div>`)[0];
+            popup_e7ba7651734a4585a82fb857d8541838.setContent(html_ef6c901b254f4ee8998259551dcc0b3a);
+        
+
+        marker_1770aeaa4e2f4d95bcb1d718509eb9a7.bindPopup(popup_e7ba7651734a4585a82fb857d8541838)
+        ;
+
+        
+    
+    
+            var marker_c30093426f404884b316bc67f2997f17 = L.marker(
+                [37.5598884579046, 126.964069882556],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_64df4b5ea415424fb922277ab4268f08 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_17249a7b025749959b12bd0f3e2dbe17 = $(`<div id="html_17249a7b025749959b12bd0f3e2dbe17" style="width: 100.0%; height: 100.0%;">사랑나눔의료재단-서울특별시 서대문구 서소문로 21</div>`)[0];
+            popup_64df4b5ea415424fb922277ab4268f08.setContent(html_17249a7b025749959b12bd0f3e2dbe17);
+        
+
+        marker_c30093426f404884b316bc67f2997f17.bindPopup(popup_64df4b5ea415424fb922277ab4268f08)
+        ;
+
+        
+    
+    
+            var marker_28560ba233f44dfc873f15b2e1f0ae30 = L.marker(
+                [37.5884849860916, 127.031701809695],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_b6815b9d06c24d1a965f20ad4d1ddc0d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bf4496111b97493c9beb110e726b51a1 = $(`<div id="html_bf4496111b97493c9beb110e726b51a1" style="width: 100.0%; height: 100.0%;">우울증센터-서울특별시 성북구 안암로 145</div>`)[0];
+            popup_b6815b9d06c24d1a965f20ad4d1ddc0d.setContent(html_bf4496111b97493c9beb110e726b51a1);
+        
+
+        marker_28560ba233f44dfc873f15b2e1f0ae30.bindPopup(popup_b6815b9d06c24d1a965f20ad4d1ddc0d)
+        ;
+
+        
+    
+    
+            var marker_d91fa5219f8e426fbbd2660fa46baa81 = L.marker(
+                [37.5234259336424, 126.91030567607599],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_9f74c89434b646b69009ad6c66b16273 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_61b0b59e8d864bb0b84af3a0f3b910bf = $(`<div id="html_61b0b59e8d864bb0b84af3a0f3b910bf" style="width: 100.0%; height: 100.0%;">성심의료재단-서울특별시 영등포구 버드나루로 55</div>`)[0];
+            popup_9f74c89434b646b69009ad6c66b16273.setContent(html_61b0b59e8d864bb0b84af3a0f3b910bf);
+        
+
+        marker_d91fa5219f8e426fbbd2660fa46baa81.bindPopup(popup_9f74c89434b646b69009ad6c66b16273)
+        ;
+
+        
+    
+    
+            var marker_bad3470de9d14cdf9b4f6c5aafee3013 = L.marker(
+                [37.4967193539591, 126.85695376699499],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_c54af5cbfab048ab86e4a25160700379 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e28d2f646d3e41ab8eab4cd2febfb89c = $(`<div id="html_e28d2f646d3e41ab8eab4cd2febfb89c" style="width: 100.0%; height: 100.0%;">다나의료재단-서울특별시 구로구 개봉로 126</div>`)[0];
+            popup_c54af5cbfab048ab86e4a25160700379.setContent(html_e28d2f646d3e41ab8eab4cd2febfb89c);
+        
+
+        marker_bad3470de9d14cdf9b4f6c5aafee3013.bindPopup(popup_c54af5cbfab048ab86e4a25160700379)
+        ;
+
+        
+    
+    
+            var marker_b7e0ef75dbd944a98788eca936d642cc = L.marker(
+                [37.5252476485773, 127.109315275715],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_4af14d3e156845b392eaad696f6f99ee = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f3399587665a45599eaa5ba3d785bf77 = $(`<div id="html_f3399587665a45599eaa5ba3d785bf77" style="width: 100.0%; height: 100.0%;">서울아산병원신관-서울특별시 송파구 올림픽로43길 88</div>`)[0];
+            popup_4af14d3e156845b392eaad696f6f99ee.setContent(html_f3399587665a45599eaa5ba3d785bf77);
+        
+
+        marker_b7e0ef75dbd944a98788eca936d642cc.bindPopup(popup_4af14d3e156845b392eaad696f6f99ee)
+        ;
+
+        
+    
+    
+            var marker_94da9ab879814ceda2bb919c1791195a = L.marker(
+                [37.6288082757637, 127.082669636243],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_ec8d14bb1822416382ef930a037e4481 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_da2a54127eb04f4ab431473b7212fb65 = $(`<div id="html_da2a54127eb04f4ab431473b7212fb65" style="width: 100.0%; height: 100.0%;">원자력병원장례식장-서울특별시 노원구 노원로 75</div>`)[0];
+            popup_ec8d14bb1822416382ef930a037e4481.setContent(html_da2a54127eb04f4ab431473b7212fb65);
+        
+
+        marker_94da9ab879814ceda2bb919c1791195a.bindPopup(popup_ec8d14bb1822416382ef930a037e4481)
+        ;
+
+        
+    
+    
+            var marker_513eb831750f4acfad23dd5c6c4b93e8 = L.marker(
+                [37.491208532547496, 126.8846634435],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_56b715a34bcd4f67aa00ef512980a924 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3cc228a9cac9400b9514cfb1f34c4943 = $(`<div id="html_3cc228a9cac9400b9514cfb1f34c4943" style="width: 100.0%; height: 100.0%;">고려대학교구로병원-서울특별시 구로구 구로동로 148</div>`)[0];
+            popup_56b715a34bcd4f67aa00ef512980a924.setContent(html_3cc228a9cac9400b9514cfb1f34c4943);
+        
+
+        marker_513eb831750f4acfad23dd5c6c4b93e8.bindPopup(popup_56b715a34bcd4f67aa00ef512980a924)
+        ;
+
+        
+    
+    
+            var marker_2d34c8076c3c49a2838c293c22152fe0 = L.marker(
+                [37.5234259336424, 126.91030567607599],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_a56a1f3738e346f6b214bfe73aeb1a08 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7a56fec23fc2428fbbd624f0c54827d4 = $(`<div id="html_7a56fec23fc2428fbbd624f0c54827d4" style="width: 100.0%; height: 100.0%;">학교법인일송학원-서울특별시 영등포구 버드나루로 55</div>`)[0];
+            popup_a56a1f3738e346f6b214bfe73aeb1a08.setContent(html_7a56fec23fc2428fbbd624f0c54827d4);
+        
+
+        marker_2d34c8076c3c49a2838c293c22152fe0.bindPopup(popup_a56a1f3738e346f6b214bfe73aeb1a08)
+        ;
+
+        
+    
+    
+            var marker_b4e6b3e2d0504e54bd4f6f4defcda02a = L.marker(
+                [37.490334340869495, 127.08957883163201],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_c3e093186c334b29af698d66b2dc1ef7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2fa787c3cf674df5bb8a9d5543f9282b = $(`<div id="html_2fa787c3cf674df5bb8a9d5543f9282b" style="width: 100.0%; height: 100.0%;">삼성의료원장례식장-서울특별시 강남구 일원로 81</div>`)[0];
+            popup_c3e093186c334b29af698d66b2dc1ef7.setContent(html_2fa787c3cf674df5bb8a9d5543f9282b);
+        
+
+        marker_b4e6b3e2d0504e54bd4f6f4defcda02a.bindPopup(popup_c3e093186c334b29af698d66b2dc1ef7)
+        ;
+
+        
+    
+    
+            var marker_a11b35c7076e4894ad8b7ca4d41b1591 = L.marker(
+                [37.4544208148109, 126.90123704027701],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_1516de3b99df4a5dafe1b5210fbe743d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_32936aeb3cc548628decc97581cf0a7f = $(`<div id="html_32936aeb3cc548628decc97581cf0a7f" style="width: 100.0%; height: 100.0%;">희명스포츠의학센터인공신장실-서울특별시 금천구 시흥대로 230</div>`)[0];
+            popup_1516de3b99df4a5dafe1b5210fbe743d.setContent(html_32936aeb3cc548628decc97581cf0a7f);
+        
+
+        marker_a11b35c7076e4894ad8b7ca4d41b1591.bindPopup(popup_1516de3b99df4a5dafe1b5210fbe743d)
+        ;
+
+        
+    
+    
+            var marker_d3e4868cbf0549d2984e567b81fe378e = L.marker(
+                [37.4927951351961, 127.046293864724],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_dca77dd59d88450fbec9de3f7f4a46a3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_54d2f0b803fc438d98a527b068737453 = $(`<div id="html_54d2f0b803fc438d98a527b068737453" style="width: 100.0%; height: 100.0%;">연세대학교의과대학강남세브란스-서울특별시 강남구 언주로 211</div>`)[0];
+            popup_dca77dd59d88450fbec9de3f7f4a46a3.setContent(html_54d2f0b803fc438d98a527b068737453);
+        
+
+        marker_d3e4868cbf0549d2984e567b81fe378e.bindPopup(popup_dca77dd59d88450fbec9de3f7f4a46a3)
+        ;
+
+        
+    
+    
+            var marker_3a489a1f39ba4dac84b33e3fcded4144 = L.marker(
+                [37.5653138819736, 127.086437154639],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_60a57a55c34f487186593f731f199e6e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_663f960d001d40e8999ae68d399de4e8 = $(`<div id="html_663f960d001d40e8999ae68d399de4e8" style="width: 100.0%; height: 100.0%;">국립정신병원-서울특별시 광진구 능동로 398</div>`)[0];
+            popup_60a57a55c34f487186593f731f199e6e.setContent(html_663f960d001d40e8999ae68d399de4e8);
+        
+
+        marker_3a489a1f39ba4dac84b33e3fcded4144.bindPopup(popup_60a57a55c34f487186593f731f199e6e)
+        ;
+
+        
+    
+    
+            var marker_ea0796057bdc41ce94fc0415149cc4a4 = L.marker(
+                [37.5041585815151, 127.05203064685499],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_bf04c159606d4b8e8c702f03018bb9ac = L.popup({"maxWidth": "100%"});
+
+        
+            var html_27ec3213714449a1b0d13cae72bcba85 = $(`<div id="html_27ec3213714449a1b0d13cae72bcba85" style="width: 100.0%; height: 100.0%;">코아클리닉-서울특별시 강남구 선릉로86길 31</div>`)[0];
+            popup_bf04c159606d4b8e8c702f03018bb9ac.setContent(html_27ec3213714449a1b0d13cae72bcba85);
+        
+
+        marker_ea0796057bdc41ce94fc0415149cc4a4.bindPopup(popup_bf04c159606d4b8e8c702f03018bb9ac)
+        ;
+
+        
+    
+    
+            var marker_79e60545a30b4ea7b52ecf3ceaf81da7 = L.marker(
+                [37.6466791728505, 127.02904307821301],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_96bbc4f863ed4eb1b59a1b8120fdee1d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a1586d3a88b04c8ab9826e1c34903bab = $(`<div id="html_a1586d3a88b04c8ab9826e1c34903bab" style="width: 100.0%; height: 100.0%;">한국전력공사부속한일병원-서울특별시 도봉구 우이천로 308</div>`)[0];
+            popup_96bbc4f863ed4eb1b59a1b8120fdee1d.setContent(html_a1586d3a88b04c8ab9826e1c34903bab);
+        
+
+        marker_79e60545a30b4ea7b52ecf3ceaf81da7.bindPopup(popup_96bbc4f863ed4eb1b59a1b8120fdee1d)
+        ;
+
+        
+    
+    
+            var marker_b411071598b040ad8c75b312bb40f104 = L.marker(
+                [37.552351350337, 126.934217029717],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_d1701baf7a65407fb28ef49df9236eca = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cb813c4ecadd44c385034eb25af83304 = $(`<div id="html_cb813c4ecadd44c385034eb25af83304" style="width: 100.0%; height: 100.0%;">신촌연세병원-서울특별시 마포구 서강로14길 14</div>`)[0];
+            popup_d1701baf7a65407fb28ef49df9236eca.setContent(html_cb813c4ecadd44c385034eb25af83304);
+        
+
+        marker_b411071598b040ad8c75b312bb40f104.bindPopup(popup_d1701baf7a65407fb28ef49df9236eca)
+        ;
+
+        
+    
+    
+            var marker_787641f2ee59425ea8c674de56641468 = L.marker(
+                [37.4927951351961, 127.046293864724],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_1b99ad227e1e40218d67a5fc4769a6a2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_692cd3a61c9d4a6d8033f102a3532649 = $(`<div id="html_692cd3a61c9d4a6d8033f102a3532649" style="width: 100.0%; height: 100.0%;">영동세브란스병원-서울특별시 강남구 언주로 211</div>`)[0];
+            popup_1b99ad227e1e40218d67a5fc4769a6a2.setContent(html_692cd3a61c9d4a6d8033f102a3532649);
+        
+
+        marker_787641f2ee59425ea8c674de56641468.bindPopup(popup_1b99ad227e1e40218d67a5fc4769a6a2)
+        ;
+
+        
+    
+    
+            var marker_27e80201f78646bc88b2cce81cabf5eb = L.marker(
+                [37.5623763649704, 126.975546803857],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_36572c3277a249a0b82200bde87edb81 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_585a902f5c4a45699800acee953e062c = $(`<div id="html_585a902f5c4a45699800acee953e062c" style="width: 100.0%; height: 100.0%;">삼성의료재단강북삼성태-서울특별시 중구 세종대로 67</div>`)[0];
+            popup_36572c3277a249a0b82200bde87edb81.setContent(html_585a902f5c4a45699800acee953e062c);
+        
+
+        marker_27e80201f78646bc88b2cce81cabf5eb.bindPopup(popup_36572c3277a249a0b82200bde87edb81)
+        ;
+
+        
+    
+    
+            var marker_5409f7a305a7463da4d91b4fb01e5e1d = L.marker(
+                [37.492999919576505, 126.92431799318399],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_05acdbadd37c465f9726883b57576418 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2252a8dd6ace40c3a265c29acc272638 = $(`<div id="html_2252a8dd6ace40c3a265c29acc272638" style="width: 100.0%; height: 100.0%;">서울시립보라매병원-서울특별시 동작구 보라매로5길 20</div>`)[0];
+            popup_05acdbadd37c465f9726883b57576418.setContent(html_2252a8dd6ace40c3a265c29acc272638);
+        
+
+        marker_5409f7a305a7463da4d91b4fb01e5e1d.bindPopup(popup_05acdbadd37c465f9726883b57576418)
+        ;
+
+        
+    
+    
+            var marker_71763c45055a4cb89aa891cb6cc9cf31 = L.marker(
+                [37.58044782245471, 126.997184076959],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_92cb0924161749b69bdfa7c05034cb6f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5fbd674adbb143c68e4483c23014f944 = $(`<div id="html_5fbd674adbb143c68e4483c23014f944" style="width: 100.0%; height: 100.0%;">서울대학교병원비상계획외래-서울특별시 종로구 대학로 101</div>`)[0];
+            popup_92cb0924161749b69bdfa7c05034cb6f.setContent(html_5fbd674adbb143c68e4483c23014f944);
+        
+
+        marker_71763c45055a4cb89aa891cb6cc9cf31.bindPopup(popup_92cb0924161749b69bdfa7c05034cb6f)
+        ;
+
+        
+    
+    
+            var marker_ea32f9a0b4034538be0b5609c1fa03f1 = L.marker(
+                [37.5023822369311, 127.00584071155399],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_b71d44bc0e404181af32b6ff681fda7b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cd276403aa9147e49f6c04b3e12daaf2 = $(`<div id="html_cd276403aa9147e49f6c04b3e12daaf2" style="width: 100.0%; height: 100.0%;">평화드림서울성모병원의료-서울특별시 서초구 반포대로 222</div>`)[0];
+            popup_b71d44bc0e404181af32b6ff681fda7b.setContent(html_cd276403aa9147e49f6c04b3e12daaf2);
+        
+
+        marker_ea32f9a0b4034538be0b5609c1fa03f1.bindPopup(popup_b71d44bc0e404181af32b6ff681fda7b)
+        ;
+
+        
+    
+    
+            var marker_e8bb20cce0464796bdab051378973653 = L.marker(
+                [37.5287978094127, 126.863637341439],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_e343ece2379e4743bc5b342228482f60 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6945aa2900e54eb3aa511650c801f287 = $(`<div id="html_6945aa2900e54eb3aa511650c801f287" style="width: 100.0%; height: 100.0%;">홍익병원-서울특별시 양천구 목동로 227</div>`)[0];
+            popup_e343ece2379e4743bc5b342228482f60.setContent(html_6945aa2900e54eb3aa511650c801f287);
+        
+
+        marker_e8bb20cce0464796bdab051378973653.bindPopup(popup_e343ece2379e4743bc5b342228482f60)
+        ;
+
+        
+    
+    
+            var marker_f4c636fcb3bf42d2b8cf7aab1b98d185 = L.marker(
+                [37.5598884579046, 126.964069882556],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_042bdf34cfd148f8927fdde3b7e8d2fc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ac59711c74644387a3f7f359e5ce464c = $(`<div id="html_ac59711c74644387a3f7f359e5ce464c" style="width: 100.0%; height: 100.0%;">사랑나눔의료재단서-서울특별시 서대문구 서소문로 21</div>`)[0];
+            popup_042bdf34cfd148f8927fdde3b7e8d2fc.setContent(html_ac59711c74644387a3f7f359e5ce464c);
+        
+
+        marker_f4c636fcb3bf42d2b8cf7aab1b98d185.bindPopup(popup_042bdf34cfd148f8927fdde3b7e8d2fc)
+        ;
+
+        
+    
+    
+            var marker_99f9d6b7d0054487844a29ce2f590a60 = L.marker(
+                [37.584867824713704, 127.031216512377],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_a66384783b6e43428e1625cfa2045ecc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7600c0e6b30d45a795102801499b3a39 = $(`<div id="html_7600c0e6b30d45a795102801499b3a39" style="width: 100.0%; height: 100.0%;">우신향병원-서울특별시 성북구 안암로 99</div>`)[0];
+            popup_a66384783b6e43428e1625cfa2045ecc.setContent(html_7600c0e6b30d45a795102801499b3a39);
+        
+
+        marker_99f9d6b7d0054487844a29ce2f590a60.bindPopup(popup_a66384783b6e43428e1625cfa2045ecc)
+        ;
+
+        
+    
+    
+            var marker_b20ab6108146449f85a04359051ea9ba = L.marker(
+                [37.6008223690353, 127.108596273171],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_4039cf260c84443797da8e3fac89fe34 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_26da203b70754996b7a105ebf21a76c9 = $(`<div id="html_26da203b70754996b7a105ebf21a76c9" style="width: 100.0%; height: 100.0%;">동부제일병원-서울특별시 중랑구 양원역로 2</div>`)[0];
+            popup_4039cf260c84443797da8e3fac89fe34.setContent(html_26da203b70754996b7a105ebf21a76c9);
+        
+
+        marker_b20ab6108146449f85a04359051ea9ba.bindPopup(popup_4039cf260c84443797da8e3fac89fe34)
+        ;
+
+        
+    
+    
+            var marker_1650c7ce17e64dc2a3a2f06b71162bf9 = L.marker(
+                [37.51767433730021, 126.982708013371],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_a442eaaf802141fcae5edfd33c2752ed = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8e5c5cd9257f4f27a0ce1eb59d961059 = $(`<div id="html_8e5c5cd9257f4f27a0ce1eb59d961059" style="width: 100.0%; height: 100.0%;">아산재단금강병원-서울특별시 용산구 이촌로 318</div>`)[0];
+            popup_a442eaaf802141fcae5edfd33c2752ed.setContent(html_8e5c5cd9257f4f27a0ce1eb59d961059);
+        
+
+        marker_1650c7ce17e64dc2a3a2f06b71162bf9.bindPopup(popup_a442eaaf802141fcae5edfd33c2752ed)
+        ;
+
+        
+    
+    
+            var marker_5553e00f39854778b34747b27b97d2ca = L.marker(
+                [37.519668760289505, 126.901570561173],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_ad4b5e2e4b6e4dbe82b79aa9342cc12e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fd246d02db644019863880bdde4bfd66 = $(`<div id="html_fd246d02db644019863880bdde4bfd66" style="width: 100.0%; height: 100.0%;">명곡안연구소-서울특별시 영등포구 영신로 136</div>`)[0];
+            popup_ad4b5e2e4b6e4dbe82b79aa9342cc12e.setContent(html_fd246d02db644019863880bdde4bfd66);
+        
+
+        marker_5553e00f39854778b34747b27b97d2ca.bindPopup(popup_ad4b5e2e4b6e4dbe82b79aa9342cc12e)
+        ;
+
+        
+    
+    
+            var marker_02ded103eaf94521a4f62dfac55da69c = L.marker(
+                [37.5252476485773, 127.109315275715],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_bafba7407e6d4219adaf75d28536dd65 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_904637429ee44c8da6e1602028050be1 = $(`<div id="html_904637429ee44c8da6e1602028050be1" style="width: 100.0%; height: 100.0%;">아산재단서울중앙병원-서울특별시 송파구 올림픽로43길 88</div>`)[0];
+            popup_bafba7407e6d4219adaf75d28536dd65.setContent(html_904637429ee44c8da6e1602028050be1);
+        
+
+        marker_02ded103eaf94521a4f62dfac55da69c.bindPopup(popup_bafba7407e6d4219adaf75d28536dd65)
+        ;
+
+        
+    
+    
+            var marker_f15d412d2f29468a961bcb8ce0440d18 = L.marker(
+                [37.5372508450536, 126.827821479527],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_291b38c7f2374f92b0bf1b1b2295b65b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_884345eeec4c43b78b2cf5ce9c1566e3 = $(`<div id="html_884345eeec4c43b78b2cf5ce9c1566e3" style="width: 100.0%; height: 100.0%;">메디힐특수여객-서울특별시 양천구 남부순환로 331</div>`)[0];
+            popup_291b38c7f2374f92b0bf1b1b2295b65b.setContent(html_884345eeec4c43b78b2cf5ce9c1566e3);
+        
+
+        marker_f15d412d2f29468a961bcb8ce0440d18.bindPopup(popup_291b38c7f2374f92b0bf1b1b2295b65b)
+        ;
+
+        
+    
+    
+            var marker_a6eae02050aa484e82bf825d92069cab = L.marker(
+                [37.490334340869495, 127.08957883163201],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_8b39924bb55a4237bb62747a8bc709bb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1f91d2cf9fd14cdeb164317822c98122 = $(`<div id="html_1f91d2cf9fd14cdeb164317822c98122" style="width: 100.0%; height: 100.0%;">삼성생명공익재단삼성서-서울특별시 강남구 일원로 81</div>`)[0];
+            popup_8b39924bb55a4237bb62747a8bc709bb.setContent(html_1f91d2cf9fd14cdeb164317822c98122);
+        
+
+        marker_a6eae02050aa484e82bf825d92069cab.bindPopup(popup_8b39924bb55a4237bb62747a8bc709bb)
+        ;
+
+        
+    
+    
+            var marker_8ed16070629148e3a1911185a6a4ff20 = L.marker(
+                [37.5068404935954, 127.034940318209],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_b63f208153fa403baa9aa7a7f59f52d6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7aac67f4f08c4d5b9989d569dcf68d66 = $(`<div id="html_7aac67f4f08c4d5b9989d569dcf68d66" style="width: 100.0%; height: 100.0%;">성광의료재단차병원-서울특별시 강남구 논현로 566</div>`)[0];
+            popup_b63f208153fa403baa9aa7a7f59f52d6.setContent(html_7aac67f4f08c4d5b9989d569dcf68d66);
+        
+
+        marker_8ed16070629148e3a1911185a6a4ff20.bindPopup(popup_b63f208153fa403baa9aa7a7f59f52d6)
+        ;
+
+        
+    
+    
+            var marker_ab6c5ab6ce214be19b92ec0afac56f51 = L.marker(
+                [37.5167119999205, 127.105389605001],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_8b6af6de8056431da46371e9420a29e2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b0f2261754b74fb7919e43ddc5a1e6cb = $(`<div id="html_b0f2261754b74fb7919e43ddc5a1e6cb" style="width: 100.0%; height: 100.0%;">한국건강관리협회서울특-서울특별시 송파구 오금로 58</div>`)[0];
+            popup_8b6af6de8056431da46371e9420a29e2.setContent(html_b0f2261754b74fb7919e43ddc5a1e6cb);
+        
+
+        marker_ab6c5ab6ce214be19b92ec0afac56f51.bindPopup(popup_8b6af6de8056431da46371e9420a29e2)
+        ;
+
+        
+    
+    
+            var marker_96bd64115a1c4ef0af6304e3c81d5cf6 = L.marker(
+                [37.5122416439178, 127.008209768382],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_3bb44c901e3b43f0ad295851409c07dd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_df77520d4e804bdc9af1fd40a355e9a1 = $(`<div id="html_df77520d4e804bdc9af1fd40a355e9a1" style="width: 100.0%; height: 100.0%;">정해복지부설한신메디피아-서울특별시 서초구 잠원로 88</div>`)[0];
+            popup_3bb44c901e3b43f0ad295851409c07dd.setContent(html_df77520d4e804bdc9af1fd40a355e9a1);
+        
+
+        marker_96bd64115a1c4ef0af6304e3c81d5cf6.bindPopup(popup_3bb44c901e3b43f0ad295851409c07dd)
+        ;
+
+        
+    
+    
+            var marker_ae59b2c501594dc8853dcecc13b656ac = L.marker(
+                [37.4853552935161, 127.037760918725],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_7d92b6bc532e4424bb1572f499f4d95c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8a9aa5f6bf704554ae35e36598e66014 = $(`<div id="html_8a9aa5f6bf704554ae35e36598e66014" style="width: 100.0%; height: 100.0%;">성베드로병원-서울특별시 강남구 남부순환로 2633</div>`)[0];
+            popup_7d92b6bc532e4424bb1572f499f4d95c.setContent(html_8a9aa5f6bf704554ae35e36598e66014);
+        
+
+        marker_ae59b2c501594dc8853dcecc13b656ac.bindPopup(popup_7d92b6bc532e4424bb1572f499f4d95c)
+        ;
+
+        
+    
+    
+            var marker_10e8ca6082044ae9a6eec1bcb3df37fd = L.marker(
+                [37.512039105313, 126.92234810541599],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_608598a25147447d90506be9646178de = L.popup({"maxWidth": "100%"});
+
+        
+            var html_38d00c9be3b1475dad316a224ccce7aa = $(`<div id="html_38d00c9be3b1475dad316a224ccce7aa" style="width: 100.0%; height: 100.0%;">성애의료재단-서울특별시 영등포구 여의대방로53길 22</div>`)[0];
+            popup_608598a25147447d90506be9646178de.setContent(html_38d00c9be3b1475dad316a224ccce7aa);
+        
+
+        marker_10e8ca6082044ae9a6eec1bcb3df37fd.bindPopup(popup_608598a25147447d90506be9646178de)
+        ;
+
+        
+    
+    
+            var marker_97b72d24911245999b95d17085439e68 = L.marker(
+                [37.5086261318378, 127.05857971764799],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_b272b3c9015f4e24a9a1b4a922dfc26f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fa38afa6cf7846dfb93ce3a6865f0bd5 = $(`<div id="html_fa38afa6cf7846dfb93ce3a6865f0bd5" style="width: 100.0%; height: 100.0%;">Y&T성모마취과-서울특별시 강남구 테헤란로87길 13</div>`)[0];
+            popup_b272b3c9015f4e24a9a1b4a922dfc26f.setContent(html_fa38afa6cf7846dfb93ce3a6865f0bd5);
+        
+
+        marker_97b72d24911245999b95d17085439e68.bindPopup(popup_b272b3c9015f4e24a9a1b4a922dfc26f)
+        ;
+
+        
+    
+    
+            var marker_1c323845f9294105b780a6bf795235d6 = L.marker(
+                [37.5594460483099, 126.968082757311],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_afa5a24d468f4c8cac36892611013778 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4e3e33d529984d3d8b98e4a2ff4c9ee8 = $(`<div id="html_4e3e33d529984d3d8b98e4a2ff4c9ee8" style="width: 100.0%; height: 100.0%;">영남의료재단-서울특별시 중구 청파로 449-1</div>`)[0];
+            popup_afa5a24d468f4c8cac36892611013778.setContent(html_4e3e33d529984d3d8b98e4a2ff4c9ee8);
+        
+
+        marker_1c323845f9294105b780a6bf795235d6.bindPopup(popup_afa5a24d468f4c8cac36892611013778)
+        ;
+
+        
+    
+    
+            var marker_f36e835739b54295b1aa2e25b3f20ac7 = L.marker(
+                [37.5648230830575, 126.98865503941299],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_68e38587fc0d44debb92426ed62f6425 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2c1236b23be942a2a329ea48501fe89c = $(`<div id="html_2c1236b23be942a2a329ea48501fe89c" style="width: 100.0%; height: 100.0%;">인제대학교서울백병원-서울특별시 중구 마른내로 9</div>`)[0];
+            popup_68e38587fc0d44debb92426ed62f6425.setContent(html_2c1236b23be942a2a329ea48501fe89c);
+        
+
+        marker_f36e835739b54295b1aa2e25b3f20ac7.bindPopup(popup_68e38587fc0d44debb92426ed62f6425)
+        ;
+
+        
+    
+    
+            var marker_da25898c46804c90a9e701367f26d8b0 = L.marker(
+                [37.5278109120341, 127.127997905164],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_1fd0c97ca97a4fe299e4a76e287d8b8c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_14da1f0ff53d4f0b9c2930eff8e776c0 = $(`<div id="html_14da1f0ff53d4f0b9c2930eff8e776c0" style="width: 100.0%; height: 100.0%;">한국필의료재단-서울특별시 강동구 성내로 71</div>`)[0];
+            popup_1fd0c97ca97a4fe299e4a76e287d8b8c.setContent(html_14da1f0ff53d4f0b9c2930eff8e776c0);
+        
+
+        marker_da25898c46804c90a9e701367f26d8b0.bindPopup(popup_1fd0c97ca97a4fe299e4a76e287d8b8c)
+        ;
+
+        
+    
+    
+            var marker_731149742e664f29b36cba30bb37cb72 = L.marker(
+                [37.579246142111, 127.04347135868099],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_5d477f59278a4f778b1bf00bfb231cfd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_233d3fe4cc284f3487daa2ac3f86e694 = $(`<div id="html_233d3fe4cc284f3487daa2ac3f86e694" style="width: 100.0%; height: 100.0%;">가톨릭대학교성바오로병원장례식장-서울특별시 동대문구 왕산로 180</div>`)[0];
+            popup_5d477f59278a4f778b1bf00bfb231cfd.setContent(html_233d3fe4cc284f3487daa2ac3f86e694);
+        
+
+        marker_731149742e664f29b36cba30bb37cb72.bindPopup(popup_5d477f59278a4f778b1bf00bfb231cfd)
+        ;
+
+        
+    
+    
+            var marker_344fe1a2cd414c3e8ee68f49c8299ea6 = L.marker(
+                [37.479617581958706, 126.956269598806],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_1a697694d0214b65b57840ceb02b56ea = L.popup({"maxWidth": "100%"});
+
+        
+            var html_43b8062c0e9c4545bfaea47bb4945584 = $(`<div id="html_43b8062c0e9c4545bfaea47bb4945584" style="width: 100.0%; height: 100.0%;">사랑의병원-서울특별시 관악구 남부순환로 1860</div>`)[0];
+            popup_1a697694d0214b65b57840ceb02b56ea.setContent(html_43b8062c0e9c4545bfaea47bb4945584);
+        
+
+        marker_344fe1a2cd414c3e8ee68f49c8299ea6.bindPopup(popup_1a697694d0214b65b57840ceb02b56ea)
+        ;
+
+        
+    
+    
+            var marker_6ec8b67f18ca44e385930cf9085becce = L.marker(
+                [37.5522155545206, 126.835871375905],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_ca128db7e15948ba8ec2d3169af75601 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dbf6e1419634409faedcab2ee8fe2a22 = $(`<div id="html_dbf6e1419634409faedcab2ee8fe2a22" style="width: 100.0%; height: 100.0%;">성삼의료재단미즈메디병원-서울특별시 강서구 강서로 295</div>`)[0];
+            popup_ca128db7e15948ba8ec2d3169af75601.setContent(html_dbf6e1419634409faedcab2ee8fe2a22);
+        
+
+        marker_6ec8b67f18ca44e385930cf9085becce.bindPopup(popup_ca128db7e15948ba8ec2d3169af75601)
+        ;
+
+        
+    
+    
+            var marker_8a19d68b4a4b4e01ae8ff8af63fbcca5 = L.marker(
+                [37.5188069808785, 126.903856966109],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_3431187d1a834035ba9eaa5b291984b3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e2b24f302db548bf9b128b5d67852ca5 = $(`<div id="html_e2b24f302db548bf9b128b5d67852ca5" style="width: 100.0%; height: 100.0%;">씨엠충무병원-서울특별시 영등포구 영등포로36길 13</div>`)[0];
+            popup_3431187d1a834035ba9eaa5b291984b3.setContent(html_e2b24f302db548bf9b128b5d67852ca5);
+        
+
+        marker_8a19d68b4a4b4e01ae8ff8af63fbcca5.bindPopup(popup_3431187d1a834035ba9eaa5b291984b3)
+        ;
+
+        
+    
+    
+            var marker_6c91d30ed74a4a0eaddcfd74d19a78bf = L.marker(
+                [37.5835570580505, 127.08604442985501],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_e64f79ac42f242c897ca7e9b5b345395 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_85bb36e9b54c42f8a2be3611c596802c = $(`<div id="html_85bb36e9b54c42f8a2be3611c596802c" style="width: 100.0%; height: 100.0%;">원진재단부설녹색병원-서울특별시 중랑구 사가정로49길 53</div>`)[0];
+            popup_e64f79ac42f242c897ca7e9b5b345395.setContent(html_85bb36e9b54c42f8a2be3611c596802c);
+        
+
+        marker_6c91d30ed74a4a0eaddcfd74d19a78bf.bindPopup(popup_e64f79ac42f242c897ca7e9b5b345395)
+        ;
+
+        
+    
+    
+            var marker_e0265725a6af444998aeadd80c62edd2 = L.marker(
+                [37.4884364039536, 127.10296779054501],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_179837da103345b28205af7387b41c85 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c36459a2f5fb41769b55584684aef7c7 = $(`<div id="html_c36459a2f5fb41769b55584684aef7c7" style="width: 100.0%; height: 100.0%;">강남센트럴병원-서울특별시 강남구 광평로51길 6-9</div>`)[0];
+            popup_179837da103345b28205af7387b41c85.setContent(html_c36459a2f5fb41769b55584684aef7c7);
+        
+
+        marker_e0265725a6af444998aeadd80c62edd2.bindPopup(popup_179837da103345b28205af7387b41c85)
+        ;
+
+        
+    
+    
+            var marker_d7851aa64644426280fbdae1601834c4 = L.marker(
+                [37.5190874717723, 127.049590630364],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_194181c888884e2d851c2a2fb6c39893 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3a06811ee21c40c58fa198f5639dfdd2 = $(`<div id="html_3a06811ee21c40c58fa198f5639dfdd2" style="width: 100.0%; height: 100.0%;">우리들병원-서울특별시 강남구 학동로 445</div>`)[0];
+            popup_194181c888884e2d851c2a2fb6c39893.setContent(html_3a06811ee21c40c58fa198f5639dfdd2);
+        
+
+        marker_d7851aa64644426280fbdae1601834c4.bindPopup(popup_194181c888884e2d851c2a2fb6c39893)
+        ;
+
+        
+    
+    
+            var marker_837f80077923476582ddd40094afc546 = L.marker(
+                [37.541224682309704, 127.07204319614999],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_6c6f3cad684149dd84ac4daaf0943552 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9bd9bf6ebc0b407dbcfd3819a07cacfe = $(`<div id="html_9bd9bf6ebc0b407dbcfd3819a07cacfe" style="width: 100.0%; height: 100.0%;">건국대학교병원-서울특별시 광진구 능동로 120-1</div>`)[0];
+            popup_6c6f3cad684149dd84ac4daaf0943552.setContent(html_9bd9bf6ebc0b407dbcfd3819a07cacfe);
+        
+
+        marker_837f80077923476582ddd40094afc546.bindPopup(popup_6c6f3cad684149dd84ac4daaf0943552)
+        ;
+
+        
+    
+    
+            var marker_7f83b805fbda457b907075c7483fe8fa = L.marker(
+                [37.5667546922405, 126.96718956735],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_bc6c2c891ede4d0a8fb9e820bed5e4dc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d71c710f7d6b474f899b4af8c6e8a1a3 = $(`<div id="html_d71c710f7d6b474f899b4af8c6e8a1a3" style="width: 100.0%; height: 100.0%;">서울적십자병원-서울특별시 종로구 새문안로 9</div>`)[0];
+            popup_bc6c2c891ede4d0a8fb9e820bed5e4dc.setContent(html_d71c710f7d6b474f899b4af8c6e8a1a3);
+        
+
+        marker_7f83b805fbda457b907075c7483fe8fa.bindPopup(popup_bc6c2c891ede4d0a8fb9e820bed5e4dc)
+        ;
+
+        
+    
+    
+            var marker_1c35ef6d3f25443b8602b3c8e0315418 = L.marker(
+                [37.5231678292, 126.909675904297],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_ce2460556531497b963523f13b9379e7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ec1d7b0de5f54dd49e51cfca2b35108b = $(`<div id="html_ec1d7b0de5f54dd49e51cfca2b35108b" style="width: 100.0%; height: 100.0%;">한림대학교부속한강성심병원장례식장-서울특별시 영등포구 버드나루로7길 12</div>`)[0];
+            popup_ce2460556531497b963523f13b9379e7.setContent(html_ec1d7b0de5f54dd49e51cfca2b35108b);
+        
+
+        marker_1c35ef6d3f25443b8602b3c8e0315418.bindPopup(popup_ce2460556531497b963523f13b9379e7)
+        ;
+
+        
+    
+    
+            var marker_054dfeb8c6de4d949da3a11e04b5c054 = L.marker(
+                [37.528473265286706, 126.86361963768199],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_7e2828c741234406adda624220c994c4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b01dc978796949d9ad05dc08fb52406b = $(`<div id="html_b01dc978796949d9ad05dc08fb52406b" style="width: 100.0%; height: 100.0%;">홍익병원-서울특별시 양천구 목동로 225</div>`)[0];
+            popup_7e2828c741234406adda624220c994c4.setContent(html_b01dc978796949d9ad05dc08fb52406b);
+        
+
+        marker_054dfeb8c6de4d949da3a11e04b5c054.bindPopup(popup_7e2828c741234406adda624220c994c4)
+        ;
+
+        
+    
+    
+            var marker_2a311b250e374f7a829bf3cb5d53d1df = L.marker(
+                [37.5023822369311, 127.00584071155399],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_4377c3652dce4668a9c3257a9a5ebc69 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9ee08cd949304117805ed58cc574cdea = $(`<div id="html_9ee08cd949304117805ed58cc574cdea" style="width: 100.0%; height: 100.0%;">서울성모병원응급의료센터-서울특별시 서초구 반포대로 222</div>`)[0];
+            popup_4377c3652dce4668a9c3257a9a5ebc69.setContent(html_9ee08cd949304117805ed58cc574cdea);
+        
+
+        marker_2a311b250e374f7a829bf3cb5d53d1df.bindPopup(popup_4377c3652dce4668a9c3257a9a5ebc69)
+        ;
+
+        
+    
+    
+            var marker_1028af0c93f34f65b9f41ffd2fa662a8 = L.marker(
+                [37.5636624910965, 126.986757791586],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_9544fc411b4e4730854c9bdf0ff073fd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a3ba743919e34330a97838827af1e771 = $(`<div id="html_a3ba743919e34330a97838827af1e771" style="width: 100.0%; height: 100.0%;">가톨릭대학교여의도성모병원-서울특별시 중구 명동길 74</div>`)[0];
+            popup_9544fc411b4e4730854c9bdf0ff073fd.setContent(html_a3ba743919e34330a97838827af1e771);
+        
+
+        marker_1028af0c93f34f65b9f41ffd2fa662a8.bindPopup(popup_9544fc411b4e4730854c9bdf0ff073fd)
+        ;
+
+        
+    
+    
+            var marker_93291a4bd98d4a62b309cb07a2506278 = L.marker(
+                [37.5188069808785, 126.903856966109],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_1dcd1366ebf24961a276e872dbdcb2bd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_50b15d91b0cf4af98c604250899f04ca = $(`<div id="html_50b15d91b0cf4af98c604250899f04ca" style="width: 100.0%; height: 100.0%;">씨엠병원-서울특별시 영등포구 영등포로36길 13</div>`)[0];
+            popup_1dcd1366ebf24961a276e872dbdcb2bd.setContent(html_50b15d91b0cf4af98c604250899f04ca);
+        
+
+        marker_93291a4bd98d4a62b309cb07a2506278.bindPopup(popup_1dcd1366ebf24961a276e872dbdcb2bd)
+        ;
+
+        
+    
+    
+            var marker_10e79137c2eb4b2c98b06075ee03d9ac = L.marker(
+                [37.485604263759605, 127.039566911558],
+                {"encoding": "UTF8"}
+            ).addTo(map_edd157e6b50046dfb2f0119c4cb760a7);
+        
+    
+        var popup_696d72ca49ab4ae0a924a8848916a97f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_680081ce76e740efaa02500bc0261f23 = $(`<div id="html_680081ce76e740efaa02500bc0261f23" style="width: 100.0%; height: 100.0%;">성베드로병원-서울특별시 강남구 남부순환로 2649</div>`)[0];
+            popup_696d72ca49ab4ae0a924a8848916a97f.setContent(html_680081ce76e740efaa02500bc0261f23);
+        
+
+        marker_10e79137c2eb4b2c98b06075ee03d9ac.bindPopup(popup_696d72ca49ab4ae0a924a8848916a97f)
+        ;
+
+        
+    
+</script>
